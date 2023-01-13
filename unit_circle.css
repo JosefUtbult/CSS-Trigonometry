@@ -1,0 +1,2897 @@
+
+/* Unit circle example animations */
+
+@keyframes cosinus {
+	0.00% {
+        top: calc(50% - var(--cos_deg_0) * 50%);
+        left: calc(50% - var(--sin_deg_0) * 50%)
+    }
+	0.28% {
+        top: calc(50% - var(--cos_deg_1) * 50%);
+        left: calc(50% - var(--sin_deg_1) * 50%)
+    }
+	0.56% {
+        top: calc(50% - var(--cos_deg_2) * 50%);
+        left: calc(50% - var(--sin_deg_2) * 50%)
+    }
+	0.83% {
+        top: calc(50% - var(--cos_deg_3) * 50%);
+        left: calc(50% - var(--sin_deg_3) * 50%)
+    }
+	1.11% {
+        top: calc(50% - var(--cos_deg_4) * 50%);
+        left: calc(50% - var(--sin_deg_4) * 50%)
+    }
+	1.39% {
+        top: calc(50% - var(--cos_deg_5) * 50%);
+        left: calc(50% - var(--sin_deg_5) * 50%)
+    }
+	1.67% {
+        top: calc(50% - var(--cos_deg_6) * 50%);
+        left: calc(50% - var(--sin_deg_6) * 50%)
+    }
+	1.94% {
+        top: calc(50% - var(--cos_deg_7) * 50%);
+        left: calc(50% - var(--sin_deg_7) * 50%)
+    }
+	2.22% {
+        top: calc(50% - var(--cos_deg_8) * 50%);
+        left: calc(50% - var(--sin_deg_8) * 50%)
+    }
+	2.50% {
+        top: calc(50% - var(--cos_deg_9) * 50%);
+        left: calc(50% - var(--sin_deg_9) * 50%)
+    }
+	2.78% {
+        top: calc(50% - var(--cos_deg_10) * 50%);
+        left: calc(50% - var(--sin_deg_10) * 50%)
+    }
+	3.06% {
+        top: calc(50% - var(--cos_deg_11) * 50%);
+        left: calc(50% - var(--sin_deg_11) * 50%)
+    }
+	3.33% {
+        top: calc(50% - var(--cos_deg_12) * 50%);
+        left: calc(50% - var(--sin_deg_12) * 50%)
+    }
+	3.61% {
+        top: calc(50% - var(--cos_deg_13) * 50%);
+        left: calc(50% - var(--sin_deg_13) * 50%)
+    }
+	3.89% {
+        top: calc(50% - var(--cos_deg_14) * 50%);
+        left: calc(50% - var(--sin_deg_14) * 50%)
+    }
+	4.17% {
+        top: calc(50% - var(--cos_deg_15) * 50%);
+        left: calc(50% - var(--sin_deg_15) * 50%)
+    }
+	4.44% {
+        top: calc(50% - var(--cos_deg_16) * 50%);
+        left: calc(50% - var(--sin_deg_16) * 50%)
+    }
+	4.72% {
+        top: calc(50% - var(--cos_deg_17) * 50%);
+        left: calc(50% - var(--sin_deg_17) * 50%)
+    }
+	5.00% {
+        top: calc(50% - var(--cos_deg_18) * 50%);
+        left: calc(50% - var(--sin_deg_18) * 50%)
+    }
+	5.28% {
+        top: calc(50% - var(--cos_deg_19) * 50%);
+        left: calc(50% - var(--sin_deg_19) * 50%)
+    }
+	5.56% {
+        top: calc(50% - var(--cos_deg_20) * 50%);
+        left: calc(50% - var(--sin_deg_20) * 50%)
+    }
+	5.83% {
+        top: calc(50% - var(--cos_deg_21) * 50%);
+        left: calc(50% - var(--sin_deg_21) * 50%)
+    }
+	6.11% {
+        top: calc(50% - var(--cos_deg_22) * 50%);
+        left: calc(50% - var(--sin_deg_22) * 50%)
+    }
+	6.39% {
+        top: calc(50% - var(--cos_deg_23) * 50%);
+        left: calc(50% - var(--sin_deg_23) * 50%)
+    }
+	6.67% {
+        top: calc(50% - var(--cos_deg_24) * 50%);
+        left: calc(50% - var(--sin_deg_24) * 50%)
+    }
+	6.94% {
+        top: calc(50% - var(--cos_deg_25) * 50%);
+        left: calc(50% - var(--sin_deg_25) * 50%)
+    }
+	7.22% {
+        top: calc(50% - var(--cos_deg_26) * 50%);
+        left: calc(50% - var(--sin_deg_26) * 50%)
+    }
+	7.50% {
+        top: calc(50% - var(--cos_deg_27) * 50%);
+        left: calc(50% - var(--sin_deg_27) * 50%)
+    }
+	7.78% {
+        top: calc(50% - var(--cos_deg_28) * 50%);
+        left: calc(50% - var(--sin_deg_28) * 50%)
+    }
+	8.06% {
+        top: calc(50% - var(--cos_deg_29) * 50%);
+        left: calc(50% - var(--sin_deg_29) * 50%)
+    }
+	8.33% {
+        top: calc(50% - var(--cos_deg_30) * 50%);
+        left: calc(50% - var(--sin_deg_30) * 50%)
+    }
+	8.61% {
+        top: calc(50% - var(--cos_deg_31) * 50%);
+        left: calc(50% - var(--sin_deg_31) * 50%)
+    }
+	8.89% {
+        top: calc(50% - var(--cos_deg_32) * 50%);
+        left: calc(50% - var(--sin_deg_32) * 50%)
+    }
+	9.17% {
+        top: calc(50% - var(--cos_deg_33) * 50%);
+        left: calc(50% - var(--sin_deg_33) * 50%)
+    }
+	9.44% {
+        top: calc(50% - var(--cos_deg_34) * 50%);
+        left: calc(50% - var(--sin_deg_34) * 50%)
+    }
+	9.72% {
+        top: calc(50% - var(--cos_deg_35) * 50%);
+        left: calc(50% - var(--sin_deg_35) * 50%)
+    }
+	10.00% {
+        top: calc(50% - var(--cos_deg_36) * 50%);
+        left: calc(50% - var(--sin_deg_36) * 50%)
+    }
+	10.28% {
+        top: calc(50% - var(--cos_deg_37) * 50%);
+        left: calc(50% - var(--sin_deg_37) * 50%)
+    }
+	10.56% {
+        top: calc(50% - var(--cos_deg_38) * 50%);
+        left: calc(50% - var(--sin_deg_38) * 50%)
+    }
+	10.83% {
+        top: calc(50% - var(--cos_deg_39) * 50%);
+        left: calc(50% - var(--sin_deg_39) * 50%)
+    }
+	11.11% {
+        top: calc(50% - var(--cos_deg_40) * 50%);
+        left: calc(50% - var(--sin_deg_40) * 50%)
+    }
+	11.39% {
+        top: calc(50% - var(--cos_deg_41) * 50%);
+        left: calc(50% - var(--sin_deg_41) * 50%)
+    }
+	11.67% {
+        top: calc(50% - var(--cos_deg_42) * 50%);
+        left: calc(50% - var(--sin_deg_42) * 50%)
+    }
+	11.94% {
+        top: calc(50% - var(--cos_deg_43) * 50%);
+        left: calc(50% - var(--sin_deg_43) * 50%)
+    }
+	12.22% {
+        top: calc(50% - var(--cos_deg_44) * 50%);
+        left: calc(50% - var(--sin_deg_44) * 50%)
+    }
+	12.50% {
+        top: calc(50% - var(--cos_deg_45) * 50%);
+        left: calc(50% - var(--sin_deg_45) * 50%)
+    }
+	12.78% {
+        top: calc(50% - var(--cos_deg_46) * 50%);
+        left: calc(50% - var(--sin_deg_46) * 50%)
+    }
+	13.06% {
+        top: calc(50% - var(--cos_deg_47) * 50%);
+        left: calc(50% - var(--sin_deg_47) * 50%)
+    }
+	13.33% {
+        top: calc(50% - var(--cos_deg_48) * 50%);
+        left: calc(50% - var(--sin_deg_48) * 50%)
+    }
+	13.61% {
+        top: calc(50% - var(--cos_deg_49) * 50%);
+        left: calc(50% - var(--sin_deg_49) * 50%)
+    }
+	13.89% {
+        top: calc(50% - var(--cos_deg_50) * 50%);
+        left: calc(50% - var(--sin_deg_50) * 50%)
+    }
+	14.17% {
+        top: calc(50% - var(--cos_deg_51) * 50%);
+        left: calc(50% - var(--sin_deg_51) * 50%)
+    }
+	14.44% {
+        top: calc(50% - var(--cos_deg_52) * 50%);
+        left: calc(50% - var(--sin_deg_52) * 50%)
+    }
+	14.72% {
+        top: calc(50% - var(--cos_deg_53) * 50%);
+        left: calc(50% - var(--sin_deg_53) * 50%)
+    }
+	15.00% {
+        top: calc(50% - var(--cos_deg_54) * 50%);
+        left: calc(50% - var(--sin_deg_54) * 50%)
+    }
+	15.28% {
+        top: calc(50% - var(--cos_deg_55) * 50%);
+        left: calc(50% - var(--sin_deg_55) * 50%)
+    }
+	15.56% {
+        top: calc(50% - var(--cos_deg_56) * 50%);
+        left: calc(50% - var(--sin_deg_56) * 50%)
+    }
+	15.83% {
+        top: calc(50% - var(--cos_deg_57) * 50%);
+        left: calc(50% - var(--sin_deg_57) * 50%)
+    }
+	16.11% {
+        top: calc(50% - var(--cos_deg_58) * 50%);
+        left: calc(50% - var(--sin_deg_58) * 50%)
+    }
+	16.39% {
+        top: calc(50% - var(--cos_deg_59) * 50%);
+        left: calc(50% - var(--sin_deg_59) * 50%)
+    }
+	16.67% {
+        top: calc(50% - var(--cos_deg_60) * 50%);
+        left: calc(50% - var(--sin_deg_60) * 50%)
+    }
+	16.94% {
+        top: calc(50% - var(--cos_deg_61) * 50%);
+        left: calc(50% - var(--sin_deg_61) * 50%)
+    }
+	17.22% {
+        top: calc(50% - var(--cos_deg_62) * 50%);
+        left: calc(50% - var(--sin_deg_62) * 50%)
+    }
+	17.50% {
+        top: calc(50% - var(--cos_deg_63) * 50%);
+        left: calc(50% - var(--sin_deg_63) * 50%)
+    }
+	17.78% {
+        top: calc(50% - var(--cos_deg_64) * 50%);
+        left: calc(50% - var(--sin_deg_64) * 50%)
+    }
+	18.06% {
+        top: calc(50% - var(--cos_deg_65) * 50%);
+        left: calc(50% - var(--sin_deg_65) * 50%)
+    }
+	18.33% {
+        top: calc(50% - var(--cos_deg_66) * 50%);
+        left: calc(50% - var(--sin_deg_66) * 50%)
+    }
+	18.61% {
+        top: calc(50% - var(--cos_deg_67) * 50%);
+        left: calc(50% - var(--sin_deg_67) * 50%)
+    }
+	18.89% {
+        top: calc(50% - var(--cos_deg_68) * 50%);
+        left: calc(50% - var(--sin_deg_68) * 50%)
+    }
+	19.17% {
+        top: calc(50% - var(--cos_deg_69) * 50%);
+        left: calc(50% - var(--sin_deg_69) * 50%)
+    }
+	19.44% {
+        top: calc(50% - var(--cos_deg_70) * 50%);
+        left: calc(50% - var(--sin_deg_70) * 50%)
+    }
+	19.72% {
+        top: calc(50% - var(--cos_deg_71) * 50%);
+        left: calc(50% - var(--sin_deg_71) * 50%)
+    }
+	20.00% {
+        top: calc(50% - var(--cos_deg_72) * 50%);
+        left: calc(50% - var(--sin_deg_72) * 50%)
+    }
+	20.28% {
+        top: calc(50% - var(--cos_deg_73) * 50%);
+        left: calc(50% - var(--sin_deg_73) * 50%)
+    }
+	20.56% {
+        top: calc(50% - var(--cos_deg_74) * 50%);
+        left: calc(50% - var(--sin_deg_74) * 50%)
+    }
+	20.83% {
+        top: calc(50% - var(--cos_deg_75) * 50%);
+        left: calc(50% - var(--sin_deg_75) * 50%)
+    }
+	21.11% {
+        top: calc(50% - var(--cos_deg_76) * 50%);
+        left: calc(50% - var(--sin_deg_76) * 50%)
+    }
+	21.39% {
+        top: calc(50% - var(--cos_deg_77) * 50%);
+        left: calc(50% - var(--sin_deg_77) * 50%)
+    }
+	21.67% {
+        top: calc(50% - var(--cos_deg_78) * 50%);
+        left: calc(50% - var(--sin_deg_78) * 50%)
+    }
+	21.94% {
+        top: calc(50% - var(--cos_deg_79) * 50%);
+        left: calc(50% - var(--sin_deg_79) * 50%)
+    }
+	22.22% {
+        top: calc(50% - var(--cos_deg_80) * 50%);
+        left: calc(50% - var(--sin_deg_80) * 50%)
+    }
+	22.50% {
+        top: calc(50% - var(--cos_deg_81) * 50%);
+        left: calc(50% - var(--sin_deg_81) * 50%)
+    }
+	22.78% {
+        top: calc(50% - var(--cos_deg_82) * 50%);
+        left: calc(50% - var(--sin_deg_82) * 50%)
+    }
+	23.06% {
+        top: calc(50% - var(--cos_deg_83) * 50%);
+        left: calc(50% - var(--sin_deg_83) * 50%)
+    }
+	23.33% {
+        top: calc(50% - var(--cos_deg_84) * 50%);
+        left: calc(50% - var(--sin_deg_84) * 50%)
+    }
+	23.61% {
+        top: calc(50% - var(--cos_deg_85) * 50%);
+        left: calc(50% - var(--sin_deg_85) * 50%)
+    }
+	23.89% {
+        top: calc(50% - var(--cos_deg_86) * 50%);
+        left: calc(50% - var(--sin_deg_86) * 50%)
+    }
+	24.17% {
+        top: calc(50% - var(--cos_deg_87) * 50%);
+        left: calc(50% - var(--sin_deg_87) * 50%)
+    }
+	24.44% {
+        top: calc(50% - var(--cos_deg_88) * 50%);
+        left: calc(50% - var(--sin_deg_88) * 50%)
+    }
+	24.72% {
+        top: calc(50% - var(--cos_deg_89) * 50%);
+        left: calc(50% - var(--sin_deg_89) * 50%)
+    }
+	25.00% {
+        top: calc(50% - var(--cos_deg_90) * 50%);
+        left: calc(50% - var(--sin_deg_90) * 50%)
+    }
+	25.28% {
+        top: calc(50% - var(--cos_deg_91) * 50%);
+        left: calc(50% - var(--sin_deg_91) * 50%)
+    }
+	25.56% {
+        top: calc(50% - var(--cos_deg_92) * 50%);
+        left: calc(50% - var(--sin_deg_92) * 50%)
+    }
+	25.83% {
+        top: calc(50% - var(--cos_deg_93) * 50%);
+        left: calc(50% - var(--sin_deg_93) * 50%)
+    }
+	26.11% {
+        top: calc(50% - var(--cos_deg_94) * 50%);
+        left: calc(50% - var(--sin_deg_94) * 50%)
+    }
+	26.39% {
+        top: calc(50% - var(--cos_deg_95) * 50%);
+        left: calc(50% - var(--sin_deg_95) * 50%)
+    }
+	26.67% {
+        top: calc(50% - var(--cos_deg_96) * 50%);
+        left: calc(50% - var(--sin_deg_96) * 50%)
+    }
+	26.94% {
+        top: calc(50% - var(--cos_deg_97) * 50%);
+        left: calc(50% - var(--sin_deg_97) * 50%)
+    }
+	27.22% {
+        top: calc(50% - var(--cos_deg_98) * 50%);
+        left: calc(50% - var(--sin_deg_98) * 50%)
+    }
+	27.50% {
+        top: calc(50% - var(--cos_deg_99) * 50%);
+        left: calc(50% - var(--sin_deg_99) * 50%)
+    }
+	27.78% {
+        top: calc(50% - var(--cos_deg_100) * 50%);
+        left: calc(50% - var(--sin_deg_100) * 50%)
+    }
+	28.06% {
+        top: calc(50% - var(--cos_deg_101) * 50%);
+        left: calc(50% - var(--sin_deg_101) * 50%)
+    }
+	28.33% {
+        top: calc(50% - var(--cos_deg_102) * 50%);
+        left: calc(50% - var(--sin_deg_102) * 50%)
+    }
+	28.61% {
+        top: calc(50% - var(--cos_deg_103) * 50%);
+        left: calc(50% - var(--sin_deg_103) * 50%)
+    }
+	28.89% {
+        top: calc(50% - var(--cos_deg_104) * 50%);
+        left: calc(50% - var(--sin_deg_104) * 50%)
+    }
+	29.17% {
+        top: calc(50% - var(--cos_deg_105) * 50%);
+        left: calc(50% - var(--sin_deg_105) * 50%)
+    }
+	29.44% {
+        top: calc(50% - var(--cos_deg_106) * 50%);
+        left: calc(50% - var(--sin_deg_106) * 50%)
+    }
+	29.72% {
+        top: calc(50% - var(--cos_deg_107) * 50%);
+        left: calc(50% - var(--sin_deg_107) * 50%)
+    }
+	30.00% {
+        top: calc(50% - var(--cos_deg_108) * 50%);
+        left: calc(50% - var(--sin_deg_108) * 50%)
+    }
+	30.28% {
+        top: calc(50% - var(--cos_deg_109) * 50%);
+        left: calc(50% - var(--sin_deg_109) * 50%)
+    }
+	30.56% {
+        top: calc(50% - var(--cos_deg_110) * 50%);
+        left: calc(50% - var(--sin_deg_110) * 50%)
+    }
+	30.83% {
+        top: calc(50% - var(--cos_deg_111) * 50%);
+        left: calc(50% - var(--sin_deg_111) * 50%)
+    }
+	31.11% {
+        top: calc(50% - var(--cos_deg_112) * 50%);
+        left: calc(50% - var(--sin_deg_112) * 50%)
+    }
+	31.39% {
+        top: calc(50% - var(--cos_deg_113) * 50%);
+        left: calc(50% - var(--sin_deg_113) * 50%)
+    }
+	31.67% {
+        top: calc(50% - var(--cos_deg_114) * 50%);
+        left: calc(50% - var(--sin_deg_114) * 50%)
+    }
+	31.94% {
+        top: calc(50% - var(--cos_deg_115) * 50%);
+        left: calc(50% - var(--sin_deg_115) * 50%)
+    }
+	32.22% {
+        top: calc(50% - var(--cos_deg_116) * 50%);
+        left: calc(50% - var(--sin_deg_116) * 50%)
+    }
+	32.50% {
+        top: calc(50% - var(--cos_deg_117) * 50%);
+        left: calc(50% - var(--sin_deg_117) * 50%)
+    }
+	32.78% {
+        top: calc(50% - var(--cos_deg_118) * 50%);
+        left: calc(50% - var(--sin_deg_118) * 50%)
+    }
+	33.06% {
+        top: calc(50% - var(--cos_deg_119) * 50%);
+        left: calc(50% - var(--sin_deg_119) * 50%)
+    }
+	33.33% {
+        top: calc(50% - var(--cos_deg_120) * 50%);
+        left: calc(50% - var(--sin_deg_120) * 50%)
+    }
+	33.61% {
+        top: calc(50% - var(--cos_deg_121) * 50%);
+        left: calc(50% - var(--sin_deg_121) * 50%)
+    }
+	33.89% {
+        top: calc(50% - var(--cos_deg_122) * 50%);
+        left: calc(50% - var(--sin_deg_122) * 50%)
+    }
+	34.17% {
+        top: calc(50% - var(--cos_deg_123) * 50%);
+        left: calc(50% - var(--sin_deg_123) * 50%)
+    }
+	34.44% {
+        top: calc(50% - var(--cos_deg_124) * 50%);
+        left: calc(50% - var(--sin_deg_124) * 50%)
+    }
+	34.72% {
+        top: calc(50% - var(--cos_deg_125) * 50%);
+        left: calc(50% - var(--sin_deg_125) * 50%)
+    }
+	35.00% {
+        top: calc(50% - var(--cos_deg_126) * 50%);
+        left: calc(50% - var(--sin_deg_126) * 50%)
+    }
+	35.28% {
+        top: calc(50% - var(--cos_deg_127) * 50%);
+        left: calc(50% - var(--sin_deg_127) * 50%)
+    }
+	35.56% {
+        top: calc(50% - var(--cos_deg_128) * 50%);
+        left: calc(50% - var(--sin_deg_128) * 50%)
+    }
+	35.83% {
+        top: calc(50% - var(--cos_deg_129) * 50%);
+        left: calc(50% - var(--sin_deg_129) * 50%)
+    }
+	36.11% {
+        top: calc(50% - var(--cos_deg_130) * 50%);
+        left: calc(50% - var(--sin_deg_130) * 50%)
+    }
+	36.39% {
+        top: calc(50% - var(--cos_deg_131) * 50%);
+        left: calc(50% - var(--sin_deg_131) * 50%)
+    }
+	36.67% {
+        top: calc(50% - var(--cos_deg_132) * 50%);
+        left: calc(50% - var(--sin_deg_132) * 50%)
+    }
+	36.94% {
+        top: calc(50% - var(--cos_deg_133) * 50%);
+        left: calc(50% - var(--sin_deg_133) * 50%)
+    }
+	37.22% {
+        top: calc(50% - var(--cos_deg_134) * 50%);
+        left: calc(50% - var(--sin_deg_134) * 50%)
+    }
+	37.50% {
+        top: calc(50% - var(--cos_deg_135) * 50%);
+        left: calc(50% - var(--sin_deg_135) * 50%)
+    }
+	37.78% {
+        top: calc(50% - var(--cos_deg_136) * 50%);
+        left: calc(50% - var(--sin_deg_136) * 50%)
+    }
+	38.06% {
+        top: calc(50% - var(--cos_deg_137) * 50%);
+        left: calc(50% - var(--sin_deg_137) * 50%)
+    }
+	38.33% {
+        top: calc(50% - var(--cos_deg_138) * 50%);
+        left: calc(50% - var(--sin_deg_138) * 50%)
+    }
+	38.61% {
+        top: calc(50% - var(--cos_deg_139) * 50%);
+        left: calc(50% - var(--sin_deg_139) * 50%)
+    }
+	38.89% {
+        top: calc(50% - var(--cos_deg_140) * 50%);
+        left: calc(50% - var(--sin_deg_140) * 50%)
+    }
+	39.17% {
+        top: calc(50% - var(--cos_deg_141) * 50%);
+        left: calc(50% - var(--sin_deg_141) * 50%)
+    }
+	39.44% {
+        top: calc(50% - var(--cos_deg_142) * 50%);
+        left: calc(50% - var(--sin_deg_142) * 50%)
+    }
+	39.72% {
+        top: calc(50% - var(--cos_deg_143) * 50%);
+        left: calc(50% - var(--sin_deg_143) * 50%)
+    }
+	40.00% {
+        top: calc(50% - var(--cos_deg_144) * 50%);
+        left: calc(50% - var(--sin_deg_144) * 50%)
+    }
+	40.28% {
+        top: calc(50% - var(--cos_deg_145) * 50%);
+        left: calc(50% - var(--sin_deg_145) * 50%)
+    }
+	40.56% {
+        top: calc(50% - var(--cos_deg_146) * 50%);
+        left: calc(50% - var(--sin_deg_146) * 50%)
+    }
+	40.83% {
+        top: calc(50% - var(--cos_deg_147) * 50%);
+        left: calc(50% - var(--sin_deg_147) * 50%)
+    }
+	41.11% {
+        top: calc(50% - var(--cos_deg_148) * 50%);
+        left: calc(50% - var(--sin_deg_148) * 50%)
+    }
+	41.39% {
+        top: calc(50% - var(--cos_deg_149) * 50%);
+        left: calc(50% - var(--sin_deg_149) * 50%)
+    }
+	41.67% {
+        top: calc(50% - var(--cos_deg_150) * 50%);
+        left: calc(50% - var(--sin_deg_150) * 50%)
+    }
+	41.94% {
+        top: calc(50% - var(--cos_deg_151) * 50%);
+        left: calc(50% - var(--sin_deg_151) * 50%)
+    }
+	42.22% {
+        top: calc(50% - var(--cos_deg_152) * 50%);
+        left: calc(50% - var(--sin_deg_152) * 50%)
+    }
+	42.50% {
+        top: calc(50% - var(--cos_deg_153) * 50%);
+        left: calc(50% - var(--sin_deg_153) * 50%)
+    }
+	42.78% {
+        top: calc(50% - var(--cos_deg_154) * 50%);
+        left: calc(50% - var(--sin_deg_154) * 50%)
+    }
+	43.06% {
+        top: calc(50% - var(--cos_deg_155) * 50%);
+        left: calc(50% - var(--sin_deg_155) * 50%)
+    }
+	43.33% {
+        top: calc(50% - var(--cos_deg_156) * 50%);
+        left: calc(50% - var(--sin_deg_156) * 50%)
+    }
+	43.61% {
+        top: calc(50% - var(--cos_deg_157) * 50%);
+        left: calc(50% - var(--sin_deg_157) * 50%)
+    }
+	43.89% {
+        top: calc(50% - var(--cos_deg_158) * 50%);
+        left: calc(50% - var(--sin_deg_158) * 50%)
+    }
+	44.17% {
+        top: calc(50% - var(--cos_deg_159) * 50%);
+        left: calc(50% - var(--sin_deg_159) * 50%)
+    }
+	44.44% {
+        top: calc(50% - var(--cos_deg_160) * 50%);
+        left: calc(50% - var(--sin_deg_160) * 50%)
+    }
+	44.72% {
+        top: calc(50% - var(--cos_deg_161) * 50%);
+        left: calc(50% - var(--sin_deg_161) * 50%)
+    }
+	45.00% {
+        top: calc(50% - var(--cos_deg_162) * 50%);
+        left: calc(50% - var(--sin_deg_162) * 50%)
+    }
+	45.28% {
+        top: calc(50% - var(--cos_deg_163) * 50%);
+        left: calc(50% - var(--sin_deg_163) * 50%)
+    }
+	45.56% {
+        top: calc(50% - var(--cos_deg_164) * 50%);
+        left: calc(50% - var(--sin_deg_164) * 50%)
+    }
+	45.83% {
+        top: calc(50% - var(--cos_deg_165) * 50%);
+        left: calc(50% - var(--sin_deg_165) * 50%)
+    }
+	46.11% {
+        top: calc(50% - var(--cos_deg_166) * 50%);
+        left: calc(50% - var(--sin_deg_166) * 50%)
+    }
+	46.39% {
+        top: calc(50% - var(--cos_deg_167) * 50%);
+        left: calc(50% - var(--sin_deg_167) * 50%)
+    }
+	46.67% {
+        top: calc(50% - var(--cos_deg_168) * 50%);
+        left: calc(50% - var(--sin_deg_168) * 50%)
+    }
+	46.94% {
+        top: calc(50% - var(--cos_deg_169) * 50%);
+        left: calc(50% - var(--sin_deg_169) * 50%)
+    }
+	47.22% {
+        top: calc(50% - var(--cos_deg_170) * 50%);
+        left: calc(50% - var(--sin_deg_170) * 50%)
+    }
+	47.50% {
+        top: calc(50% - var(--cos_deg_171) * 50%);
+        left: calc(50% - var(--sin_deg_171) * 50%)
+    }
+	47.78% {
+        top: calc(50% - var(--cos_deg_172) * 50%);
+        left: calc(50% - var(--sin_deg_172) * 50%)
+    }
+	48.06% {
+        top: calc(50% - var(--cos_deg_173) * 50%);
+        left: calc(50% - var(--sin_deg_173) * 50%)
+    }
+	48.33% {
+        top: calc(50% - var(--cos_deg_174) * 50%);
+        left: calc(50% - var(--sin_deg_174) * 50%)
+    }
+	48.61% {
+        top: calc(50% - var(--cos_deg_175) * 50%);
+        left: calc(50% - var(--sin_deg_175) * 50%)
+    }
+	48.89% {
+        top: calc(50% - var(--cos_deg_176) * 50%);
+        left: calc(50% - var(--sin_deg_176) * 50%)
+    }
+	49.17% {
+        top: calc(50% - var(--cos_deg_177) * 50%);
+        left: calc(50% - var(--sin_deg_177) * 50%)
+    }
+	49.44% {
+        top: calc(50% - var(--cos_deg_178) * 50%);
+        left: calc(50% - var(--sin_deg_178) * 50%)
+    }
+	49.72% {
+        top: calc(50% - var(--cos_deg_179) * 50%);
+        left: calc(50% - var(--sin_deg_179) * 50%)
+    }
+	50.00% {
+        top: calc(50% - var(--cos_deg_180) * 50%);
+        left: calc(50% - var(--sin_deg_180) * 50%)
+    }
+	50.28% {
+        top: calc(50% - var(--cos_deg_181) * 50%);
+        left: calc(50% - var(--sin_deg_181) * 50%)
+    }
+	50.56% {
+        top: calc(50% - var(--cos_deg_182) * 50%);
+        left: calc(50% - var(--sin_deg_182) * 50%)
+    }
+	50.83% {
+        top: calc(50% - var(--cos_deg_183) * 50%);
+        left: calc(50% - var(--sin_deg_183) * 50%)
+    }
+	51.11% {
+        top: calc(50% - var(--cos_deg_184) * 50%);
+        left: calc(50% - var(--sin_deg_184) * 50%)
+    }
+	51.39% {
+        top: calc(50% - var(--cos_deg_185) * 50%);
+        left: calc(50% - var(--sin_deg_185) * 50%)
+    }
+	51.67% {
+        top: calc(50% - var(--cos_deg_186) * 50%);
+        left: calc(50% - var(--sin_deg_186) * 50%)
+    }
+	51.94% {
+        top: calc(50% - var(--cos_deg_187) * 50%);
+        left: calc(50% - var(--sin_deg_187) * 50%)
+    }
+	52.22% {
+        top: calc(50% - var(--cos_deg_188) * 50%);
+        left: calc(50% - var(--sin_deg_188) * 50%)
+    }
+	52.50% {
+        top: calc(50% - var(--cos_deg_189) * 50%);
+        left: calc(50% - var(--sin_deg_189) * 50%)
+    }
+	52.78% {
+        top: calc(50% - var(--cos_deg_190) * 50%);
+        left: calc(50% - var(--sin_deg_190) * 50%)
+    }
+	53.06% {
+        top: calc(50% - var(--cos_deg_191) * 50%);
+        left: calc(50% - var(--sin_deg_191) * 50%)
+    }
+	53.33% {
+        top: calc(50% - var(--cos_deg_192) * 50%);
+        left: calc(50% - var(--sin_deg_192) * 50%)
+    }
+	53.61% {
+        top: calc(50% - var(--cos_deg_193) * 50%);
+        left: calc(50% - var(--sin_deg_193) * 50%)
+    }
+	53.89% {
+        top: calc(50% - var(--cos_deg_194) * 50%);
+        left: calc(50% - var(--sin_deg_194) * 50%)
+    }
+	54.17% {
+        top: calc(50% - var(--cos_deg_195) * 50%);
+        left: calc(50% - var(--sin_deg_195) * 50%)
+    }
+	54.44% {
+        top: calc(50% - var(--cos_deg_196) * 50%);
+        left: calc(50% - var(--sin_deg_196) * 50%)
+    }
+	54.72% {
+        top: calc(50% - var(--cos_deg_197) * 50%);
+        left: calc(50% - var(--sin_deg_197) * 50%)
+    }
+	55.00% {
+        top: calc(50% - var(--cos_deg_198) * 50%);
+        left: calc(50% - var(--sin_deg_198) * 50%)
+    }
+	55.28% {
+        top: calc(50% - var(--cos_deg_199) * 50%);
+        left: calc(50% - var(--sin_deg_199) * 50%)
+    }
+	55.56% {
+        top: calc(50% - var(--cos_deg_200) * 50%);
+        left: calc(50% - var(--sin_deg_200) * 50%)
+    }
+	55.83% {
+        top: calc(50% - var(--cos_deg_201) * 50%);
+        left: calc(50% - var(--sin_deg_201) * 50%)
+    }
+	56.11% {
+        top: calc(50% - var(--cos_deg_202) * 50%);
+        left: calc(50% - var(--sin_deg_202) * 50%)
+    }
+	56.39% {
+        top: calc(50% - var(--cos_deg_203) * 50%);
+        left: calc(50% - var(--sin_deg_203) * 50%)
+    }
+	56.67% {
+        top: calc(50% - var(--cos_deg_204) * 50%);
+        left: calc(50% - var(--sin_deg_204) * 50%)
+    }
+	56.94% {
+        top: calc(50% - var(--cos_deg_205) * 50%);
+        left: calc(50% - var(--sin_deg_205) * 50%)
+    }
+	57.22% {
+        top: calc(50% - var(--cos_deg_206) * 50%);
+        left: calc(50% - var(--sin_deg_206) * 50%)
+    }
+	57.50% {
+        top: calc(50% - var(--cos_deg_207) * 50%);
+        left: calc(50% - var(--sin_deg_207) * 50%)
+    }
+	57.78% {
+        top: calc(50% - var(--cos_deg_208) * 50%);
+        left: calc(50% - var(--sin_deg_208) * 50%)
+    }
+	58.06% {
+        top: calc(50% - var(--cos_deg_209) * 50%);
+        left: calc(50% - var(--sin_deg_209) * 50%)
+    }
+	58.33% {
+        top: calc(50% - var(--cos_deg_210) * 50%);
+        left: calc(50% - var(--sin_deg_210) * 50%)
+    }
+	58.61% {
+        top: calc(50% - var(--cos_deg_211) * 50%);
+        left: calc(50% - var(--sin_deg_211) * 50%)
+    }
+	58.89% {
+        top: calc(50% - var(--cos_deg_212) * 50%);
+        left: calc(50% - var(--sin_deg_212) * 50%)
+    }
+	59.17% {
+        top: calc(50% - var(--cos_deg_213) * 50%);
+        left: calc(50% - var(--sin_deg_213) * 50%)
+    }
+	59.44% {
+        top: calc(50% - var(--cos_deg_214) * 50%);
+        left: calc(50% - var(--sin_deg_214) * 50%)
+    }
+	59.72% {
+        top: calc(50% - var(--cos_deg_215) * 50%);
+        left: calc(50% - var(--sin_deg_215) * 50%)
+    }
+	60.00% {
+        top: calc(50% - var(--cos_deg_216) * 50%);
+        left: calc(50% - var(--sin_deg_216) * 50%)
+    }
+	60.28% {
+        top: calc(50% - var(--cos_deg_217) * 50%);
+        left: calc(50% - var(--sin_deg_217) * 50%)
+    }
+	60.56% {
+        top: calc(50% - var(--cos_deg_218) * 50%);
+        left: calc(50% - var(--sin_deg_218) * 50%)
+    }
+	60.83% {
+        top: calc(50% - var(--cos_deg_219) * 50%);
+        left: calc(50% - var(--sin_deg_219) * 50%)
+    }
+	61.11% {
+        top: calc(50% - var(--cos_deg_220) * 50%);
+        left: calc(50% - var(--sin_deg_220) * 50%)
+    }
+	61.39% {
+        top: calc(50% - var(--cos_deg_221) * 50%);
+        left: calc(50% - var(--sin_deg_221) * 50%)
+    }
+	61.67% {
+        top: calc(50% - var(--cos_deg_222) * 50%);
+        left: calc(50% - var(--sin_deg_222) * 50%)
+    }
+	61.94% {
+        top: calc(50% - var(--cos_deg_223) * 50%);
+        left: calc(50% - var(--sin_deg_223) * 50%)
+    }
+	62.22% {
+        top: calc(50% - var(--cos_deg_224) * 50%);
+        left: calc(50% - var(--sin_deg_224) * 50%)
+    }
+	62.50% {
+        top: calc(50% - var(--cos_deg_225) * 50%);
+        left: calc(50% - var(--sin_deg_225) * 50%)
+    }
+	62.78% {
+        top: calc(50% - var(--cos_deg_226) * 50%);
+        left: calc(50% - var(--sin_deg_226) * 50%)
+    }
+	63.06% {
+        top: calc(50% - var(--cos_deg_227) * 50%);
+        left: calc(50% - var(--sin_deg_227) * 50%)
+    }
+	63.33% {
+        top: calc(50% - var(--cos_deg_228) * 50%);
+        left: calc(50% - var(--sin_deg_228) * 50%)
+    }
+	63.61% {
+        top: calc(50% - var(--cos_deg_229) * 50%);
+        left: calc(50% - var(--sin_deg_229) * 50%)
+    }
+	63.89% {
+        top: calc(50% - var(--cos_deg_230) * 50%);
+        left: calc(50% - var(--sin_deg_230) * 50%)
+    }
+	64.17% {
+        top: calc(50% - var(--cos_deg_231) * 50%);
+        left: calc(50% - var(--sin_deg_231) * 50%)
+    }
+	64.44% {
+        top: calc(50% - var(--cos_deg_232) * 50%);
+        left: calc(50% - var(--sin_deg_232) * 50%)
+    }
+	64.72% {
+        top: calc(50% - var(--cos_deg_233) * 50%);
+        left: calc(50% - var(--sin_deg_233) * 50%)
+    }
+	65.00% {
+        top: calc(50% - var(--cos_deg_234) * 50%);
+        left: calc(50% - var(--sin_deg_234) * 50%)
+    }
+	65.28% {
+        top: calc(50% - var(--cos_deg_235) * 50%);
+        left: calc(50% - var(--sin_deg_235) * 50%)
+    }
+	65.56% {
+        top: calc(50% - var(--cos_deg_236) * 50%);
+        left: calc(50% - var(--sin_deg_236) * 50%)
+    }
+	65.83% {
+        top: calc(50% - var(--cos_deg_237) * 50%);
+        left: calc(50% - var(--sin_deg_237) * 50%)
+    }
+	66.11% {
+        top: calc(50% - var(--cos_deg_238) * 50%);
+        left: calc(50% - var(--sin_deg_238) * 50%)
+    }
+	66.39% {
+        top: calc(50% - var(--cos_deg_239) * 50%);
+        left: calc(50% - var(--sin_deg_239) * 50%)
+    }
+	66.67% {
+        top: calc(50% - var(--cos_deg_240) * 50%);
+        left: calc(50% - var(--sin_deg_240) * 50%)
+    }
+	66.94% {
+        top: calc(50% - var(--cos_deg_241) * 50%);
+        left: calc(50% - var(--sin_deg_241) * 50%)
+    }
+	67.22% {
+        top: calc(50% - var(--cos_deg_242) * 50%);
+        left: calc(50% - var(--sin_deg_242) * 50%)
+    }
+	67.50% {
+        top: calc(50% - var(--cos_deg_243) * 50%);
+        left: calc(50% - var(--sin_deg_243) * 50%)
+    }
+	67.78% {
+        top: calc(50% - var(--cos_deg_244) * 50%);
+        left: calc(50% - var(--sin_deg_244) * 50%)
+    }
+	68.06% {
+        top: calc(50% - var(--cos_deg_245) * 50%);
+        left: calc(50% - var(--sin_deg_245) * 50%)
+    }
+	68.33% {
+        top: calc(50% - var(--cos_deg_246) * 50%);
+        left: calc(50% - var(--sin_deg_246) * 50%)
+    }
+	68.61% {
+        top: calc(50% - var(--cos_deg_247) * 50%);
+        left: calc(50% - var(--sin_deg_247) * 50%)
+    }
+	68.89% {
+        top: calc(50% - var(--cos_deg_248) * 50%);
+        left: calc(50% - var(--sin_deg_248) * 50%)
+    }
+	69.17% {
+        top: calc(50% - var(--cos_deg_249) * 50%);
+        left: calc(50% - var(--sin_deg_249) * 50%)
+    }
+	69.44% {
+        top: calc(50% - var(--cos_deg_250) * 50%);
+        left: calc(50% - var(--sin_deg_250) * 50%)
+    }
+	69.72% {
+        top: calc(50% - var(--cos_deg_251) * 50%);
+        left: calc(50% - var(--sin_deg_251) * 50%)
+    }
+	70.00% {
+        top: calc(50% - var(--cos_deg_252) * 50%);
+        left: calc(50% - var(--sin_deg_252) * 50%)
+    }
+	70.28% {
+        top: calc(50% - var(--cos_deg_253) * 50%);
+        left: calc(50% - var(--sin_deg_253) * 50%)
+    }
+	70.56% {
+        top: calc(50% - var(--cos_deg_254) * 50%);
+        left: calc(50% - var(--sin_deg_254) * 50%)
+    }
+	70.83% {
+        top: calc(50% - var(--cos_deg_255) * 50%);
+        left: calc(50% - var(--sin_deg_255) * 50%)
+    }
+	71.11% {
+        top: calc(50% - var(--cos_deg_256) * 50%);
+        left: calc(50% - var(--sin_deg_256) * 50%)
+    }
+	71.39% {
+        top: calc(50% - var(--cos_deg_257) * 50%);
+        left: calc(50% - var(--sin_deg_257) * 50%)
+    }
+	71.67% {
+        top: calc(50% - var(--cos_deg_258) * 50%);
+        left: calc(50% - var(--sin_deg_258) * 50%)
+    }
+	71.94% {
+        top: calc(50% - var(--cos_deg_259) * 50%);
+        left: calc(50% - var(--sin_deg_259) * 50%)
+    }
+	72.22% {
+        top: calc(50% - var(--cos_deg_260) * 50%);
+        left: calc(50% - var(--sin_deg_260) * 50%)
+    }
+	72.50% {
+        top: calc(50% - var(--cos_deg_261) * 50%);
+        left: calc(50% - var(--sin_deg_261) * 50%)
+    }
+	72.78% {
+        top: calc(50% - var(--cos_deg_262) * 50%);
+        left: calc(50% - var(--sin_deg_262) * 50%)
+    }
+	73.06% {
+        top: calc(50% - var(--cos_deg_263) * 50%);
+        left: calc(50% - var(--sin_deg_263) * 50%)
+    }
+	73.33% {
+        top: calc(50% - var(--cos_deg_264) * 50%);
+        left: calc(50% - var(--sin_deg_264) * 50%)
+    }
+	73.61% {
+        top: calc(50% - var(--cos_deg_265) * 50%);
+        left: calc(50% - var(--sin_deg_265) * 50%)
+    }
+	73.89% {
+        top: calc(50% - var(--cos_deg_266) * 50%);
+        left: calc(50% - var(--sin_deg_266) * 50%)
+    }
+	74.17% {
+        top: calc(50% - var(--cos_deg_267) * 50%);
+        left: calc(50% - var(--sin_deg_267) * 50%)
+    }
+	74.44% {
+        top: calc(50% - var(--cos_deg_268) * 50%);
+        left: calc(50% - var(--sin_deg_268) * 50%)
+    }
+	74.72% {
+        top: calc(50% - var(--cos_deg_269) * 50%);
+        left: calc(50% - var(--sin_deg_269) * 50%)
+    }
+	75.00% {
+        top: calc(50% - var(--cos_deg_270) * 50%);
+        left: calc(50% - var(--sin_deg_270) * 50%)
+    }
+	75.28% {
+        top: calc(50% - var(--cos_deg_271) * 50%);
+        left: calc(50% - var(--sin_deg_271) * 50%)
+    }
+	75.56% {
+        top: calc(50% - var(--cos_deg_272) * 50%);
+        left: calc(50% - var(--sin_deg_272) * 50%)
+    }
+	75.83% {
+        top: calc(50% - var(--cos_deg_273) * 50%);
+        left: calc(50% - var(--sin_deg_273) * 50%)
+    }
+	76.11% {
+        top: calc(50% - var(--cos_deg_274) * 50%);
+        left: calc(50% - var(--sin_deg_274) * 50%)
+    }
+	76.39% {
+        top: calc(50% - var(--cos_deg_275) * 50%);
+        left: calc(50% - var(--sin_deg_275) * 50%)
+    }
+	76.67% {
+        top: calc(50% - var(--cos_deg_276) * 50%);
+        left: calc(50% - var(--sin_deg_276) * 50%)
+    }
+	76.94% {
+        top: calc(50% - var(--cos_deg_277) * 50%);
+        left: calc(50% - var(--sin_deg_277) * 50%)
+    }
+	77.22% {
+        top: calc(50% - var(--cos_deg_278) * 50%);
+        left: calc(50% - var(--sin_deg_278) * 50%)
+    }
+	77.50% {
+        top: calc(50% - var(--cos_deg_279) * 50%);
+        left: calc(50% - var(--sin_deg_279) * 50%)
+    }
+	77.78% {
+        top: calc(50% - var(--cos_deg_280) * 50%);
+        left: calc(50% - var(--sin_deg_280) * 50%)
+    }
+	78.06% {
+        top: calc(50% - var(--cos_deg_281) * 50%);
+        left: calc(50% - var(--sin_deg_281) * 50%)
+    }
+	78.33% {
+        top: calc(50% - var(--cos_deg_282) * 50%);
+        left: calc(50% - var(--sin_deg_282) * 50%)
+    }
+	78.61% {
+        top: calc(50% - var(--cos_deg_283) * 50%);
+        left: calc(50% - var(--sin_deg_283) * 50%)
+    }
+	78.89% {
+        top: calc(50% - var(--cos_deg_284) * 50%);
+        left: calc(50% - var(--sin_deg_284) * 50%)
+    }
+	79.17% {
+        top: calc(50% - var(--cos_deg_285) * 50%);
+        left: calc(50% - var(--sin_deg_285) * 50%)
+    }
+	79.44% {
+        top: calc(50% - var(--cos_deg_286) * 50%);
+        left: calc(50% - var(--sin_deg_286) * 50%)
+    }
+	79.72% {
+        top: calc(50% - var(--cos_deg_287) * 50%);
+        left: calc(50% - var(--sin_deg_287) * 50%)
+    }
+	80.00% {
+        top: calc(50% - var(--cos_deg_288) * 50%);
+        left: calc(50% - var(--sin_deg_288) * 50%)
+    }
+	80.28% {
+        top: calc(50% - var(--cos_deg_289) * 50%);
+        left: calc(50% - var(--sin_deg_289) * 50%)
+    }
+	80.56% {
+        top: calc(50% - var(--cos_deg_290) * 50%);
+        left: calc(50% - var(--sin_deg_290) * 50%)
+    }
+	80.83% {
+        top: calc(50% - var(--cos_deg_291) * 50%);
+        left: calc(50% - var(--sin_deg_291) * 50%)
+    }
+	81.11% {
+        top: calc(50% - var(--cos_deg_292) * 50%);
+        left: calc(50% - var(--sin_deg_292) * 50%)
+    }
+	81.39% {
+        top: calc(50% - var(--cos_deg_293) * 50%);
+        left: calc(50% - var(--sin_deg_293) * 50%)
+    }
+	81.67% {
+        top: calc(50% - var(--cos_deg_294) * 50%);
+        left: calc(50% - var(--sin_deg_294) * 50%)
+    }
+	81.94% {
+        top: calc(50% - var(--cos_deg_295) * 50%);
+        left: calc(50% - var(--sin_deg_295) * 50%)
+    }
+	82.22% {
+        top: calc(50% - var(--cos_deg_296) * 50%);
+        left: calc(50% - var(--sin_deg_296) * 50%)
+    }
+	82.50% {
+        top: calc(50% - var(--cos_deg_297) * 50%);
+        left: calc(50% - var(--sin_deg_297) * 50%)
+    }
+	82.78% {
+        top: calc(50% - var(--cos_deg_298) * 50%);
+        left: calc(50% - var(--sin_deg_298) * 50%)
+    }
+	83.06% {
+        top: calc(50% - var(--cos_deg_299) * 50%);
+        left: calc(50% - var(--sin_deg_299) * 50%)
+    }
+	83.33% {
+        top: calc(50% - var(--cos_deg_300) * 50%);
+        left: calc(50% - var(--sin_deg_300) * 50%)
+    }
+	83.61% {
+        top: calc(50% - var(--cos_deg_301) * 50%);
+        left: calc(50% - var(--sin_deg_301) * 50%)
+    }
+	83.89% {
+        top: calc(50% - var(--cos_deg_302) * 50%);
+        left: calc(50% - var(--sin_deg_302) * 50%)
+    }
+	84.17% {
+        top: calc(50% - var(--cos_deg_303) * 50%);
+        left: calc(50% - var(--sin_deg_303) * 50%)
+    }
+	84.44% {
+        top: calc(50% - var(--cos_deg_304) * 50%);
+        left: calc(50% - var(--sin_deg_304) * 50%)
+    }
+	84.72% {
+        top: calc(50% - var(--cos_deg_305) * 50%);
+        left: calc(50% - var(--sin_deg_305) * 50%)
+    }
+	85.00% {
+        top: calc(50% - var(--cos_deg_306) * 50%);
+        left: calc(50% - var(--sin_deg_306) * 50%)
+    }
+	85.28% {
+        top: calc(50% - var(--cos_deg_307) * 50%);
+        left: calc(50% - var(--sin_deg_307) * 50%)
+    }
+	85.56% {
+        top: calc(50% - var(--cos_deg_308) * 50%);
+        left: calc(50% - var(--sin_deg_308) * 50%)
+    }
+	85.83% {
+        top: calc(50% - var(--cos_deg_309) * 50%);
+        left: calc(50% - var(--sin_deg_309) * 50%)
+    }
+	86.11% {
+        top: calc(50% - var(--cos_deg_310) * 50%);
+        left: calc(50% - var(--sin_deg_310) * 50%)
+    }
+	86.39% {
+        top: calc(50% - var(--cos_deg_311) * 50%);
+        left: calc(50% - var(--sin_deg_311) * 50%)
+    }
+	86.67% {
+        top: calc(50% - var(--cos_deg_312) * 50%);
+        left: calc(50% - var(--sin_deg_312) * 50%)
+    }
+	86.94% {
+        top: calc(50% - var(--cos_deg_313) * 50%);
+        left: calc(50% - var(--sin_deg_313) * 50%)
+    }
+	87.22% {
+        top: calc(50% - var(--cos_deg_314) * 50%);
+        left: calc(50% - var(--sin_deg_314) * 50%)
+    }
+	87.50% {
+        top: calc(50% - var(--cos_deg_315) * 50%);
+        left: calc(50% - var(--sin_deg_315) * 50%)
+    }
+	87.78% {
+        top: calc(50% - var(--cos_deg_316) * 50%);
+        left: calc(50% - var(--sin_deg_316) * 50%)
+    }
+	88.06% {
+        top: calc(50% - var(--cos_deg_317) * 50%);
+        left: calc(50% - var(--sin_deg_317) * 50%)
+    }
+	88.33% {
+        top: calc(50% - var(--cos_deg_318) * 50%);
+        left: calc(50% - var(--sin_deg_318) * 50%)
+    }
+	88.61% {
+        top: calc(50% - var(--cos_deg_319) * 50%);
+        left: calc(50% - var(--sin_deg_319) * 50%)
+    }
+	88.89% {
+        top: calc(50% - var(--cos_deg_320) * 50%);
+        left: calc(50% - var(--sin_deg_320) * 50%)
+    }
+	89.17% {
+        top: calc(50% - var(--cos_deg_321) * 50%);
+        left: calc(50% - var(--sin_deg_321) * 50%)
+    }
+	89.44% {
+        top: calc(50% - var(--cos_deg_322) * 50%);
+        left: calc(50% - var(--sin_deg_322) * 50%)
+    }
+	89.72% {
+        top: calc(50% - var(--cos_deg_323) * 50%);
+        left: calc(50% - var(--sin_deg_323) * 50%)
+    }
+	90.00% {
+        top: calc(50% - var(--cos_deg_324) * 50%);
+        left: calc(50% - var(--sin_deg_324) * 50%)
+    }
+	90.28% {
+        top: calc(50% - var(--cos_deg_325) * 50%);
+        left: calc(50% - var(--sin_deg_325) * 50%)
+    }
+	90.56% {
+        top: calc(50% - var(--cos_deg_326) * 50%);
+        left: calc(50% - var(--sin_deg_326) * 50%)
+    }
+	90.83% {
+        top: calc(50% - var(--cos_deg_327) * 50%);
+        left: calc(50% - var(--sin_deg_327) * 50%)
+    }
+	91.11% {
+        top: calc(50% - var(--cos_deg_328) * 50%);
+        left: calc(50% - var(--sin_deg_328) * 50%)
+    }
+	91.39% {
+        top: calc(50% - var(--cos_deg_329) * 50%);
+        left: calc(50% - var(--sin_deg_329) * 50%)
+    }
+	91.67% {
+        top: calc(50% - var(--cos_deg_330) * 50%);
+        left: calc(50% - var(--sin_deg_330) * 50%)
+    }
+	91.94% {
+        top: calc(50% - var(--cos_deg_331) * 50%);
+        left: calc(50% - var(--sin_deg_331) * 50%)
+    }
+	92.22% {
+        top: calc(50% - var(--cos_deg_332) * 50%);
+        left: calc(50% - var(--sin_deg_332) * 50%)
+    }
+	92.50% {
+        top: calc(50% - var(--cos_deg_333) * 50%);
+        left: calc(50% - var(--sin_deg_333) * 50%)
+    }
+	92.78% {
+        top: calc(50% - var(--cos_deg_334) * 50%);
+        left: calc(50% - var(--sin_deg_334) * 50%)
+    }
+	93.06% {
+        top: calc(50% - var(--cos_deg_335) * 50%);
+        left: calc(50% - var(--sin_deg_335) * 50%)
+    }
+	93.33% {
+        top: calc(50% - var(--cos_deg_336) * 50%);
+        left: calc(50% - var(--sin_deg_336) * 50%)
+    }
+	93.61% {
+        top: calc(50% - var(--cos_deg_337) * 50%);
+        left: calc(50% - var(--sin_deg_337) * 50%)
+    }
+	93.89% {
+        top: calc(50% - var(--cos_deg_338) * 50%);
+        left: calc(50% - var(--sin_deg_338) * 50%)
+    }
+	94.17% {
+        top: calc(50% - var(--cos_deg_339) * 50%);
+        left: calc(50% - var(--sin_deg_339) * 50%)
+    }
+	94.44% {
+        top: calc(50% - var(--cos_deg_340) * 50%);
+        left: calc(50% - var(--sin_deg_340) * 50%)
+    }
+	94.72% {
+        top: calc(50% - var(--cos_deg_341) * 50%);
+        left: calc(50% - var(--sin_deg_341) * 50%)
+    }
+	95.00% {
+        top: calc(50% - var(--cos_deg_342) * 50%);
+        left: calc(50% - var(--sin_deg_342) * 50%)
+    }
+	95.28% {
+        top: calc(50% - var(--cos_deg_343) * 50%);
+        left: calc(50% - var(--sin_deg_343) * 50%)
+    }
+	95.56% {
+        top: calc(50% - var(--cos_deg_344) * 50%);
+        left: calc(50% - var(--sin_deg_344) * 50%)
+    }
+	95.83% {
+        top: calc(50% - var(--cos_deg_345) * 50%);
+        left: calc(50% - var(--sin_deg_345) * 50%)
+    }
+	96.11% {
+        top: calc(50% - var(--cos_deg_346) * 50%);
+        left: calc(50% - var(--sin_deg_346) * 50%)
+    }
+	96.39% {
+        top: calc(50% - var(--cos_deg_347) * 50%);
+        left: calc(50% - var(--sin_deg_347) * 50%)
+    }
+	96.67% {
+        top: calc(50% - var(--cos_deg_348) * 50%);
+        left: calc(50% - var(--sin_deg_348) * 50%)
+    }
+	96.94% {
+        top: calc(50% - var(--cos_deg_349) * 50%);
+        left: calc(50% - var(--sin_deg_349) * 50%)
+    }
+	97.22% {
+        top: calc(50% - var(--cos_deg_350) * 50%);
+        left: calc(50% - var(--sin_deg_350) * 50%)
+    }
+	97.50% {
+        top: calc(50% - var(--cos_deg_351) * 50%);
+        left: calc(50% - var(--sin_deg_351) * 50%)
+    }
+	97.78% {
+        top: calc(50% - var(--cos_deg_352) * 50%);
+        left: calc(50% - var(--sin_deg_352) * 50%)
+    }
+	98.06% {
+        top: calc(50% - var(--cos_deg_353) * 50%);
+        left: calc(50% - var(--sin_deg_353) * 50%)
+    }
+	98.33% {
+        top: calc(50% - var(--cos_deg_354) * 50%);
+        left: calc(50% - var(--sin_deg_354) * 50%)
+    }
+	98.61% {
+        top: calc(50% - var(--cos_deg_355) * 50%);
+        left: calc(50% - var(--sin_deg_355) * 50%)
+    }
+	98.89% {
+        top: calc(50% - var(--cos_deg_356) * 50%);
+        left: calc(50% - var(--sin_deg_356) * 50%)
+    }
+	99.17% {
+        top: calc(50% - var(--cos_deg_357) * 50%);
+        left: calc(50% - var(--sin_deg_357) * 50%)
+    }
+	99.44% {
+        top: calc(50% - var(--cos_deg_358) * 50%);
+        left: calc(50% - var(--sin_deg_358) * 50%)
+    }
+	99.72% {
+        top: calc(50% - var(--cos_deg_359) * 50%);
+        left: calc(50% - var(--sin_deg_359) * 50%)
+    }
+	100.00% {
+        top: calc(50% - var(--cos_deg_360) * 50%);
+        left: calc(50% - var(--sin_deg_360) * 50%)
+    }
+}
+
+@keyframes sinus {
+	0.00% {
+        top: calc(50% - var(--sin_deg_0) * 50%);
+        left: calc(50% + var(--cos_deg_0) * 50%)
+    }
+	0.28% {
+        top: calc(50% - var(--sin_deg_1) * 50%);
+        left: calc(50% + var(--cos_deg_1) * 50%)
+    }
+	0.56% {
+        top: calc(50% - var(--sin_deg_2) * 50%);
+        left: calc(50% + var(--cos_deg_2) * 50%)
+    }
+	0.83% {
+        top: calc(50% - var(--sin_deg_3) * 50%);
+        left: calc(50% + var(--cos_deg_3) * 50%)
+    }
+	1.11% {
+        top: calc(50% - var(--sin_deg_4) * 50%);
+        left: calc(50% + var(--cos_deg_4) * 50%)
+    }
+	1.39% {
+        top: calc(50% - var(--sin_deg_5) * 50%);
+        left: calc(50% + var(--cos_deg_5) * 50%)
+    }
+	1.67% {
+        top: calc(50% - var(--sin_deg_6) * 50%);
+        left: calc(50% + var(--cos_deg_6) * 50%)
+    }
+	1.94% {
+        top: calc(50% - var(--sin_deg_7) * 50%);
+        left: calc(50% + var(--cos_deg_7) * 50%)
+    }
+	2.22% {
+        top: calc(50% - var(--sin_deg_8) * 50%);
+        left: calc(50% + var(--cos_deg_8) * 50%)
+    }
+	2.50% {
+        top: calc(50% - var(--sin_deg_9) * 50%);
+        left: calc(50% + var(--cos_deg_9) * 50%)
+    }
+	2.78% {
+        top: calc(50% - var(--sin_deg_10) * 50%);
+        left: calc(50% + var(--cos_deg_10) * 50%)
+    }
+	3.06% {
+        top: calc(50% - var(--sin_deg_11) * 50%);
+        left: calc(50% + var(--cos_deg_11) * 50%)
+    }
+	3.33% {
+        top: calc(50% - var(--sin_deg_12) * 50%);
+        left: calc(50% + var(--cos_deg_12) * 50%)
+    }
+	3.61% {
+        top: calc(50% - var(--sin_deg_13) * 50%);
+        left: calc(50% + var(--cos_deg_13) * 50%)
+    }
+	3.89% {
+        top: calc(50% - var(--sin_deg_14) * 50%);
+        left: calc(50% + var(--cos_deg_14) * 50%)
+    }
+	4.17% {
+        top: calc(50% - var(--sin_deg_15) * 50%);
+        left: calc(50% + var(--cos_deg_15) * 50%)
+    }
+	4.44% {
+        top: calc(50% - var(--sin_deg_16) * 50%);
+        left: calc(50% + var(--cos_deg_16) * 50%)
+    }
+	4.72% {
+        top: calc(50% - var(--sin_deg_17) * 50%);
+        left: calc(50% + var(--cos_deg_17) * 50%)
+    }
+	5.00% {
+        top: calc(50% - var(--sin_deg_18) * 50%);
+        left: calc(50% + var(--cos_deg_18) * 50%)
+    }
+	5.28% {
+        top: calc(50% - var(--sin_deg_19) * 50%);
+        left: calc(50% + var(--cos_deg_19) * 50%)
+    }
+	5.56% {
+        top: calc(50% - var(--sin_deg_20) * 50%);
+        left: calc(50% + var(--cos_deg_20) * 50%)
+    }
+	5.83% {
+        top: calc(50% - var(--sin_deg_21) * 50%);
+        left: calc(50% + var(--cos_deg_21) * 50%)
+    }
+	6.11% {
+        top: calc(50% - var(--sin_deg_22) * 50%);
+        left: calc(50% + var(--cos_deg_22) * 50%)
+    }
+	6.39% {
+        top: calc(50% - var(--sin_deg_23) * 50%);
+        left: calc(50% + var(--cos_deg_23) * 50%)
+    }
+	6.67% {
+        top: calc(50% - var(--sin_deg_24) * 50%);
+        left: calc(50% + var(--cos_deg_24) * 50%)
+    }
+	6.94% {
+        top: calc(50% - var(--sin_deg_25) * 50%);
+        left: calc(50% + var(--cos_deg_25) * 50%)
+    }
+	7.22% {
+        top: calc(50% - var(--sin_deg_26) * 50%);
+        left: calc(50% + var(--cos_deg_26) * 50%)
+    }
+	7.50% {
+        top: calc(50% - var(--sin_deg_27) * 50%);
+        left: calc(50% + var(--cos_deg_27) * 50%)
+    }
+	7.78% {
+        top: calc(50% - var(--sin_deg_28) * 50%);
+        left: calc(50% + var(--cos_deg_28) * 50%)
+    }
+	8.06% {
+        top: calc(50% - var(--sin_deg_29) * 50%);
+        left: calc(50% + var(--cos_deg_29) * 50%)
+    }
+	8.33% {
+        top: calc(50% - var(--sin_deg_30) * 50%);
+        left: calc(50% + var(--cos_deg_30) * 50%)
+    }
+	8.61% {
+        top: calc(50% - var(--sin_deg_31) * 50%);
+        left: calc(50% + var(--cos_deg_31) * 50%)
+    }
+	8.89% {
+        top: calc(50% - var(--sin_deg_32) * 50%);
+        left: calc(50% + var(--cos_deg_32) * 50%)
+    }
+	9.17% {
+        top: calc(50% - var(--sin_deg_33) * 50%);
+        left: calc(50% + var(--cos_deg_33) * 50%)
+    }
+	9.44% {
+        top: calc(50% - var(--sin_deg_34) * 50%);
+        left: calc(50% + var(--cos_deg_34) * 50%)
+    }
+	9.72% {
+        top: calc(50% - var(--sin_deg_35) * 50%);
+        left: calc(50% + var(--cos_deg_35) * 50%)
+    }
+	10.00% {
+        top: calc(50% - var(--sin_deg_36) * 50%);
+        left: calc(50% + var(--cos_deg_36) * 50%)
+    }
+	10.28% {
+        top: calc(50% - var(--sin_deg_37) * 50%);
+        left: calc(50% + var(--cos_deg_37) * 50%)
+    }
+	10.56% {
+        top: calc(50% - var(--sin_deg_38) * 50%);
+        left: calc(50% + var(--cos_deg_38) * 50%)
+    }
+	10.83% {
+        top: calc(50% - var(--sin_deg_39) * 50%);
+        left: calc(50% + var(--cos_deg_39) * 50%)
+    }
+	11.11% {
+        top: calc(50% - var(--sin_deg_40) * 50%);
+        left: calc(50% + var(--cos_deg_40) * 50%)
+    }
+	11.39% {
+        top: calc(50% - var(--sin_deg_41) * 50%);
+        left: calc(50% + var(--cos_deg_41) * 50%)
+    }
+	11.67% {
+        top: calc(50% - var(--sin_deg_42) * 50%);
+        left: calc(50% + var(--cos_deg_42) * 50%)
+    }
+	11.94% {
+        top: calc(50% - var(--sin_deg_43) * 50%);
+        left: calc(50% + var(--cos_deg_43) * 50%)
+    }
+	12.22% {
+        top: calc(50% - var(--sin_deg_44) * 50%);
+        left: calc(50% + var(--cos_deg_44) * 50%)
+    }
+	12.50% {
+        top: calc(50% - var(--sin_deg_45) * 50%);
+        left: calc(50% + var(--cos_deg_45) * 50%)
+    }
+	12.78% {
+        top: calc(50% - var(--sin_deg_46) * 50%);
+        left: calc(50% + var(--cos_deg_46) * 50%)
+    }
+	13.06% {
+        top: calc(50% - var(--sin_deg_47) * 50%);
+        left: calc(50% + var(--cos_deg_47) * 50%)
+    }
+	13.33% {
+        top: calc(50% - var(--sin_deg_48) * 50%);
+        left: calc(50% + var(--cos_deg_48) * 50%)
+    }
+	13.61% {
+        top: calc(50% - var(--sin_deg_49) * 50%);
+        left: calc(50% + var(--cos_deg_49) * 50%)
+    }
+	13.89% {
+        top: calc(50% - var(--sin_deg_50) * 50%);
+        left: calc(50% + var(--cos_deg_50) * 50%)
+    }
+	14.17% {
+        top: calc(50% - var(--sin_deg_51) * 50%);
+        left: calc(50% + var(--cos_deg_51) * 50%)
+    }
+	14.44% {
+        top: calc(50% - var(--sin_deg_52) * 50%);
+        left: calc(50% + var(--cos_deg_52) * 50%)
+    }
+	14.72% {
+        top: calc(50% - var(--sin_deg_53) * 50%);
+        left: calc(50% + var(--cos_deg_53) * 50%)
+    }
+	15.00% {
+        top: calc(50% - var(--sin_deg_54) * 50%);
+        left: calc(50% + var(--cos_deg_54) * 50%)
+    }
+	15.28% {
+        top: calc(50% - var(--sin_deg_55) * 50%);
+        left: calc(50% + var(--cos_deg_55) * 50%)
+    }
+	15.56% {
+        top: calc(50% - var(--sin_deg_56) * 50%);
+        left: calc(50% + var(--cos_deg_56) * 50%)
+    }
+	15.83% {
+        top: calc(50% - var(--sin_deg_57) * 50%);
+        left: calc(50% + var(--cos_deg_57) * 50%)
+    }
+	16.11% {
+        top: calc(50% - var(--sin_deg_58) * 50%);
+        left: calc(50% + var(--cos_deg_58) * 50%)
+    }
+	16.39% {
+        top: calc(50% - var(--sin_deg_59) * 50%);
+        left: calc(50% + var(--cos_deg_59) * 50%)
+    }
+	16.67% {
+        top: calc(50% - var(--sin_deg_60) * 50%);
+        left: calc(50% + var(--cos_deg_60) * 50%)
+    }
+	16.94% {
+        top: calc(50% - var(--sin_deg_61) * 50%);
+        left: calc(50% + var(--cos_deg_61) * 50%)
+    }
+	17.22% {
+        top: calc(50% - var(--sin_deg_62) * 50%);
+        left: calc(50% + var(--cos_deg_62) * 50%)
+    }
+	17.50% {
+        top: calc(50% - var(--sin_deg_63) * 50%);
+        left: calc(50% + var(--cos_deg_63) * 50%)
+    }
+	17.78% {
+        top: calc(50% - var(--sin_deg_64) * 50%);
+        left: calc(50% + var(--cos_deg_64) * 50%)
+    }
+	18.06% {
+        top: calc(50% - var(--sin_deg_65) * 50%);
+        left: calc(50% + var(--cos_deg_65) * 50%)
+    }
+	18.33% {
+        top: calc(50% - var(--sin_deg_66) * 50%);
+        left: calc(50% + var(--cos_deg_66) * 50%)
+    }
+	18.61% {
+        top: calc(50% - var(--sin_deg_67) * 50%);
+        left: calc(50% + var(--cos_deg_67) * 50%)
+    }
+	18.89% {
+        top: calc(50% - var(--sin_deg_68) * 50%);
+        left: calc(50% + var(--cos_deg_68) * 50%)
+    }
+	19.17% {
+        top: calc(50% - var(--sin_deg_69) * 50%);
+        left: calc(50% + var(--cos_deg_69) * 50%)
+    }
+	19.44% {
+        top: calc(50% - var(--sin_deg_70) * 50%);
+        left: calc(50% + var(--cos_deg_70) * 50%)
+    }
+	19.72% {
+        top: calc(50% - var(--sin_deg_71) * 50%);
+        left: calc(50% + var(--cos_deg_71) * 50%)
+    }
+	20.00% {
+        top: calc(50% - var(--sin_deg_72) * 50%);
+        left: calc(50% + var(--cos_deg_72) * 50%)
+    }
+	20.28% {
+        top: calc(50% - var(--sin_deg_73) * 50%);
+        left: calc(50% + var(--cos_deg_73) * 50%)
+    }
+	20.56% {
+        top: calc(50% - var(--sin_deg_74) * 50%);
+        left: calc(50% + var(--cos_deg_74) * 50%)
+    }
+	20.83% {
+        top: calc(50% - var(--sin_deg_75) * 50%);
+        left: calc(50% + var(--cos_deg_75) * 50%)
+    }
+	21.11% {
+        top: calc(50% - var(--sin_deg_76) * 50%);
+        left: calc(50% + var(--cos_deg_76) * 50%)
+    }
+	21.39% {
+        top: calc(50% - var(--sin_deg_77) * 50%);
+        left: calc(50% + var(--cos_deg_77) * 50%)
+    }
+	21.67% {
+        top: calc(50% - var(--sin_deg_78) * 50%);
+        left: calc(50% + var(--cos_deg_78) * 50%)
+    }
+	21.94% {
+        top: calc(50% - var(--sin_deg_79) * 50%);
+        left: calc(50% + var(--cos_deg_79) * 50%)
+    }
+	22.22% {
+        top: calc(50% - var(--sin_deg_80) * 50%);
+        left: calc(50% + var(--cos_deg_80) * 50%)
+    }
+	22.50% {
+        top: calc(50% - var(--sin_deg_81) * 50%);
+        left: calc(50% + var(--cos_deg_81) * 50%)
+    }
+	22.78% {
+        top: calc(50% - var(--sin_deg_82) * 50%);
+        left: calc(50% + var(--cos_deg_82) * 50%)
+    }
+	23.06% {
+        top: calc(50% - var(--sin_deg_83) * 50%);
+        left: calc(50% + var(--cos_deg_83) * 50%)
+    }
+	23.33% {
+        top: calc(50% - var(--sin_deg_84) * 50%);
+        left: calc(50% + var(--cos_deg_84) * 50%)
+    }
+	23.61% {
+        top: calc(50% - var(--sin_deg_85) * 50%);
+        left: calc(50% + var(--cos_deg_85) * 50%)
+    }
+	23.89% {
+        top: calc(50% - var(--sin_deg_86) * 50%);
+        left: calc(50% + var(--cos_deg_86) * 50%)
+    }
+	24.17% {
+        top: calc(50% - var(--sin_deg_87) * 50%);
+        left: calc(50% + var(--cos_deg_87) * 50%)
+    }
+	24.44% {
+        top: calc(50% - var(--sin_deg_88) * 50%);
+        left: calc(50% + var(--cos_deg_88) * 50%)
+    }
+	24.72% {
+        top: calc(50% - var(--sin_deg_89) * 50%);
+        left: calc(50% + var(--cos_deg_89) * 50%)
+    }
+	25.00% {
+        top: calc(50% - var(--sin_deg_90) * 50%);
+        left: calc(50% + var(--cos_deg_90) * 50%)
+    }
+	25.28% {
+        top: calc(50% - var(--sin_deg_91) * 50%);
+        left: calc(50% + var(--cos_deg_91) * 50%)
+    }
+	25.56% {
+        top: calc(50% - var(--sin_deg_92) * 50%);
+        left: calc(50% + var(--cos_deg_92) * 50%)
+    }
+	25.83% {
+        top: calc(50% - var(--sin_deg_93) * 50%);
+        left: calc(50% + var(--cos_deg_93) * 50%)
+    }
+	26.11% {
+        top: calc(50% - var(--sin_deg_94) * 50%);
+        left: calc(50% + var(--cos_deg_94) * 50%)
+    }
+	26.39% {
+        top: calc(50% - var(--sin_deg_95) * 50%);
+        left: calc(50% + var(--cos_deg_95) * 50%)
+    }
+	26.67% {
+        top: calc(50% - var(--sin_deg_96) * 50%);
+        left: calc(50% + var(--cos_deg_96) * 50%)
+    }
+	26.94% {
+        top: calc(50% - var(--sin_deg_97) * 50%);
+        left: calc(50% + var(--cos_deg_97) * 50%)
+    }
+	27.22% {
+        top: calc(50% - var(--sin_deg_98) * 50%);
+        left: calc(50% + var(--cos_deg_98) * 50%)
+    }
+	27.50% {
+        top: calc(50% - var(--sin_deg_99) * 50%);
+        left: calc(50% + var(--cos_deg_99) * 50%)
+    }
+	27.78% {
+        top: calc(50% - var(--sin_deg_100) * 50%);
+        left: calc(50% + var(--cos_deg_100) * 50%)
+    }
+	28.06% {
+        top: calc(50% - var(--sin_deg_101) * 50%);
+        left: calc(50% + var(--cos_deg_101) * 50%)
+    }
+	28.33% {
+        top: calc(50% - var(--sin_deg_102) * 50%);
+        left: calc(50% + var(--cos_deg_102) * 50%)
+    }
+	28.61% {
+        top: calc(50% - var(--sin_deg_103) * 50%);
+        left: calc(50% + var(--cos_deg_103) * 50%)
+    }
+	28.89% {
+        top: calc(50% - var(--sin_deg_104) * 50%);
+        left: calc(50% + var(--cos_deg_104) * 50%)
+    }
+	29.17% {
+        top: calc(50% - var(--sin_deg_105) * 50%);
+        left: calc(50% + var(--cos_deg_105) * 50%)
+    }
+	29.44% {
+        top: calc(50% - var(--sin_deg_106) * 50%);
+        left: calc(50% + var(--cos_deg_106) * 50%)
+    }
+	29.72% {
+        top: calc(50% - var(--sin_deg_107) * 50%);
+        left: calc(50% + var(--cos_deg_107) * 50%)
+    }
+	30.00% {
+        top: calc(50% - var(--sin_deg_108) * 50%);
+        left: calc(50% + var(--cos_deg_108) * 50%)
+    }
+	30.28% {
+        top: calc(50% - var(--sin_deg_109) * 50%);
+        left: calc(50% + var(--cos_deg_109) * 50%)
+    }
+	30.56% {
+        top: calc(50% - var(--sin_deg_110) * 50%);
+        left: calc(50% + var(--cos_deg_110) * 50%)
+    }
+	30.83% {
+        top: calc(50% - var(--sin_deg_111) * 50%);
+        left: calc(50% + var(--cos_deg_111) * 50%)
+    }
+	31.11% {
+        top: calc(50% - var(--sin_deg_112) * 50%);
+        left: calc(50% + var(--cos_deg_112) * 50%)
+    }
+	31.39% {
+        top: calc(50% - var(--sin_deg_113) * 50%);
+        left: calc(50% + var(--cos_deg_113) * 50%)
+    }
+	31.67% {
+        top: calc(50% - var(--sin_deg_114) * 50%);
+        left: calc(50% + var(--cos_deg_114) * 50%)
+    }
+	31.94% {
+        top: calc(50% - var(--sin_deg_115) * 50%);
+        left: calc(50% + var(--cos_deg_115) * 50%)
+    }
+	32.22% {
+        top: calc(50% - var(--sin_deg_116) * 50%);
+        left: calc(50% + var(--cos_deg_116) * 50%)
+    }
+	32.50% {
+        top: calc(50% - var(--sin_deg_117) * 50%);
+        left: calc(50% + var(--cos_deg_117) * 50%)
+    }
+	32.78% {
+        top: calc(50% - var(--sin_deg_118) * 50%);
+        left: calc(50% + var(--cos_deg_118) * 50%)
+    }
+	33.06% {
+        top: calc(50% - var(--sin_deg_119) * 50%);
+        left: calc(50% + var(--cos_deg_119) * 50%)
+    }
+	33.33% {
+        top: calc(50% - var(--sin_deg_120) * 50%);
+        left: calc(50% + var(--cos_deg_120) * 50%)
+    }
+	33.61% {
+        top: calc(50% - var(--sin_deg_121) * 50%);
+        left: calc(50% + var(--cos_deg_121) * 50%)
+    }
+	33.89% {
+        top: calc(50% - var(--sin_deg_122) * 50%);
+        left: calc(50% + var(--cos_deg_122) * 50%)
+    }
+	34.17% {
+        top: calc(50% - var(--sin_deg_123) * 50%);
+        left: calc(50% + var(--cos_deg_123) * 50%)
+    }
+	34.44% {
+        top: calc(50% - var(--sin_deg_124) * 50%);
+        left: calc(50% + var(--cos_deg_124) * 50%)
+    }
+	34.72% {
+        top: calc(50% - var(--sin_deg_125) * 50%);
+        left: calc(50% + var(--cos_deg_125) * 50%)
+    }
+	35.00% {
+        top: calc(50% - var(--sin_deg_126) * 50%);
+        left: calc(50% + var(--cos_deg_126) * 50%)
+    }
+	35.28% {
+        top: calc(50% - var(--sin_deg_127) * 50%);
+        left: calc(50% + var(--cos_deg_127) * 50%)
+    }
+	35.56% {
+        top: calc(50% - var(--sin_deg_128) * 50%);
+        left: calc(50% + var(--cos_deg_128) * 50%)
+    }
+	35.83% {
+        top: calc(50% - var(--sin_deg_129) * 50%);
+        left: calc(50% + var(--cos_deg_129) * 50%)
+    }
+	36.11% {
+        top: calc(50% - var(--sin_deg_130) * 50%);
+        left: calc(50% + var(--cos_deg_130) * 50%)
+    }
+	36.39% {
+        top: calc(50% - var(--sin_deg_131) * 50%);
+        left: calc(50% + var(--cos_deg_131) * 50%)
+    }
+	36.67% {
+        top: calc(50% - var(--sin_deg_132) * 50%);
+        left: calc(50% + var(--cos_deg_132) * 50%)
+    }
+	36.94% {
+        top: calc(50% - var(--sin_deg_133) * 50%);
+        left: calc(50% + var(--cos_deg_133) * 50%)
+    }
+	37.22% {
+        top: calc(50% - var(--sin_deg_134) * 50%);
+        left: calc(50% + var(--cos_deg_134) * 50%)
+    }
+	37.50% {
+        top: calc(50% - var(--sin_deg_135) * 50%);
+        left: calc(50% + var(--cos_deg_135) * 50%)
+    }
+	37.78% {
+        top: calc(50% - var(--sin_deg_136) * 50%);
+        left: calc(50% + var(--cos_deg_136) * 50%)
+    }
+	38.06% {
+        top: calc(50% - var(--sin_deg_137) * 50%);
+        left: calc(50% + var(--cos_deg_137) * 50%)
+    }
+	38.33% {
+        top: calc(50% - var(--sin_deg_138) * 50%);
+        left: calc(50% + var(--cos_deg_138) * 50%)
+    }
+	38.61% {
+        top: calc(50% - var(--sin_deg_139) * 50%);
+        left: calc(50% + var(--cos_deg_139) * 50%)
+    }
+	38.89% {
+        top: calc(50% - var(--sin_deg_140) * 50%);
+        left: calc(50% + var(--cos_deg_140) * 50%)
+    }
+	39.17% {
+        top: calc(50% - var(--sin_deg_141) * 50%);
+        left: calc(50% + var(--cos_deg_141) * 50%)
+    }
+	39.44% {
+        top: calc(50% - var(--sin_deg_142) * 50%);
+        left: calc(50% + var(--cos_deg_142) * 50%)
+    }
+	39.72% {
+        top: calc(50% - var(--sin_deg_143) * 50%);
+        left: calc(50% + var(--cos_deg_143) * 50%)
+    }
+	40.00% {
+        top: calc(50% - var(--sin_deg_144) * 50%);
+        left: calc(50% + var(--cos_deg_144) * 50%)
+    }
+	40.28% {
+        top: calc(50% - var(--sin_deg_145) * 50%);
+        left: calc(50% + var(--cos_deg_145) * 50%)
+    }
+	40.56% {
+        top: calc(50% - var(--sin_deg_146) * 50%);
+        left: calc(50% + var(--cos_deg_146) * 50%)
+    }
+	40.83% {
+        top: calc(50% - var(--sin_deg_147) * 50%);
+        left: calc(50% + var(--cos_deg_147) * 50%)
+    }
+	41.11% {
+        top: calc(50% - var(--sin_deg_148) * 50%);
+        left: calc(50% + var(--cos_deg_148) * 50%)
+    }
+	41.39% {
+        top: calc(50% - var(--sin_deg_149) * 50%);
+        left: calc(50% + var(--cos_deg_149) * 50%)
+    }
+	41.67% {
+        top: calc(50% - var(--sin_deg_150) * 50%);
+        left: calc(50% + var(--cos_deg_150) * 50%)
+    }
+	41.94% {
+        top: calc(50% - var(--sin_deg_151) * 50%);
+        left: calc(50% + var(--cos_deg_151) * 50%)
+    }
+	42.22% {
+        top: calc(50% - var(--sin_deg_152) * 50%);
+        left: calc(50% + var(--cos_deg_152) * 50%)
+    }
+	42.50% {
+        top: calc(50% - var(--sin_deg_153) * 50%);
+        left: calc(50% + var(--cos_deg_153) * 50%)
+    }
+	42.78% {
+        top: calc(50% - var(--sin_deg_154) * 50%);
+        left: calc(50% + var(--cos_deg_154) * 50%)
+    }
+	43.06% {
+        top: calc(50% - var(--sin_deg_155) * 50%);
+        left: calc(50% + var(--cos_deg_155) * 50%)
+    }
+	43.33% {
+        top: calc(50% - var(--sin_deg_156) * 50%);
+        left: calc(50% + var(--cos_deg_156) * 50%)
+    }
+	43.61% {
+        top: calc(50% - var(--sin_deg_157) * 50%);
+        left: calc(50% + var(--cos_deg_157) * 50%)
+    }
+	43.89% {
+        top: calc(50% - var(--sin_deg_158) * 50%);
+        left: calc(50% + var(--cos_deg_158) * 50%)
+    }
+	44.17% {
+        top: calc(50% - var(--sin_deg_159) * 50%);
+        left: calc(50% + var(--cos_deg_159) * 50%)
+    }
+	44.44% {
+        top: calc(50% - var(--sin_deg_160) * 50%);
+        left: calc(50% + var(--cos_deg_160) * 50%)
+    }
+	44.72% {
+        top: calc(50% - var(--sin_deg_161) * 50%);
+        left: calc(50% + var(--cos_deg_161) * 50%)
+    }
+	45.00% {
+        top: calc(50% - var(--sin_deg_162) * 50%);
+        left: calc(50% + var(--cos_deg_162) * 50%)
+    }
+	45.28% {
+        top: calc(50% - var(--sin_deg_163) * 50%);
+        left: calc(50% + var(--cos_deg_163) * 50%)
+    }
+	45.56% {
+        top: calc(50% - var(--sin_deg_164) * 50%);
+        left: calc(50% + var(--cos_deg_164) * 50%)
+    }
+	45.83% {
+        top: calc(50% - var(--sin_deg_165) * 50%);
+        left: calc(50% + var(--cos_deg_165) * 50%)
+    }
+	46.11% {
+        top: calc(50% - var(--sin_deg_166) * 50%);
+        left: calc(50% + var(--cos_deg_166) * 50%)
+    }
+	46.39% {
+        top: calc(50% - var(--sin_deg_167) * 50%);
+        left: calc(50% + var(--cos_deg_167) * 50%)
+    }
+	46.67% {
+        top: calc(50% - var(--sin_deg_168) * 50%);
+        left: calc(50% + var(--cos_deg_168) * 50%)
+    }
+	46.94% {
+        top: calc(50% - var(--sin_deg_169) * 50%);
+        left: calc(50% + var(--cos_deg_169) * 50%)
+    }
+	47.22% {
+        top: calc(50% - var(--sin_deg_170) * 50%);
+        left: calc(50% + var(--cos_deg_170) * 50%)
+    }
+	47.50% {
+        top: calc(50% - var(--sin_deg_171) * 50%);
+        left: calc(50% + var(--cos_deg_171) * 50%)
+    }
+	47.78% {
+        top: calc(50% - var(--sin_deg_172) * 50%);
+        left: calc(50% + var(--cos_deg_172) * 50%)
+    }
+	48.06% {
+        top: calc(50% - var(--sin_deg_173) * 50%);
+        left: calc(50% + var(--cos_deg_173) * 50%)
+    }
+	48.33% {
+        top: calc(50% - var(--sin_deg_174) * 50%);
+        left: calc(50% + var(--cos_deg_174) * 50%)
+    }
+	48.61% {
+        top: calc(50% - var(--sin_deg_175) * 50%);
+        left: calc(50% + var(--cos_deg_175) * 50%)
+    }
+	48.89% {
+        top: calc(50% - var(--sin_deg_176) * 50%);
+        left: calc(50% + var(--cos_deg_176) * 50%)
+    }
+	49.17% {
+        top: calc(50% - var(--sin_deg_177) * 50%);
+        left: calc(50% + var(--cos_deg_177) * 50%)
+    }
+	49.44% {
+        top: calc(50% - var(--sin_deg_178) * 50%);
+        left: calc(50% + var(--cos_deg_178) * 50%)
+    }
+	49.72% {
+        top: calc(50% - var(--sin_deg_179) * 50%);
+        left: calc(50% + var(--cos_deg_179) * 50%)
+    }
+	50.00% {
+        top: calc(50% - var(--sin_deg_180) * 50%);
+        left: calc(50% + var(--cos_deg_180) * 50%)
+    }
+	50.28% {
+        top: calc(50% - var(--sin_deg_181) * 50%);
+        left: calc(50% + var(--cos_deg_181) * 50%)
+    }
+	50.56% {
+        top: calc(50% - var(--sin_deg_182) * 50%);
+        left: calc(50% + var(--cos_deg_182) * 50%)
+    }
+	50.83% {
+        top: calc(50% - var(--sin_deg_183) * 50%);
+        left: calc(50% + var(--cos_deg_183) * 50%)
+    }
+	51.11% {
+        top: calc(50% - var(--sin_deg_184) * 50%);
+        left: calc(50% + var(--cos_deg_184) * 50%)
+    }
+	51.39% {
+        top: calc(50% - var(--sin_deg_185) * 50%);
+        left: calc(50% + var(--cos_deg_185) * 50%)
+    }
+	51.67% {
+        top: calc(50% - var(--sin_deg_186) * 50%);
+        left: calc(50% + var(--cos_deg_186) * 50%)
+    }
+	51.94% {
+        top: calc(50% - var(--sin_deg_187) * 50%);
+        left: calc(50% + var(--cos_deg_187) * 50%)
+    }
+	52.22% {
+        top: calc(50% - var(--sin_deg_188) * 50%);
+        left: calc(50% + var(--cos_deg_188) * 50%)
+    }
+	52.50% {
+        top: calc(50% - var(--sin_deg_189) * 50%);
+        left: calc(50% + var(--cos_deg_189) * 50%)
+    }
+	52.78% {
+        top: calc(50% - var(--sin_deg_190) * 50%);
+        left: calc(50% + var(--cos_deg_190) * 50%)
+    }
+	53.06% {
+        top: calc(50% - var(--sin_deg_191) * 50%);
+        left: calc(50% + var(--cos_deg_191) * 50%)
+    }
+	53.33% {
+        top: calc(50% - var(--sin_deg_192) * 50%);
+        left: calc(50% + var(--cos_deg_192) * 50%)
+    }
+	53.61% {
+        top: calc(50% - var(--sin_deg_193) * 50%);
+        left: calc(50% + var(--cos_deg_193) * 50%)
+    }
+	53.89% {
+        top: calc(50% - var(--sin_deg_194) * 50%);
+        left: calc(50% + var(--cos_deg_194) * 50%)
+    }
+	54.17% {
+        top: calc(50% - var(--sin_deg_195) * 50%);
+        left: calc(50% + var(--cos_deg_195) * 50%)
+    }
+	54.44% {
+        top: calc(50% - var(--sin_deg_196) * 50%);
+        left: calc(50% + var(--cos_deg_196) * 50%)
+    }
+	54.72% {
+        top: calc(50% - var(--sin_deg_197) * 50%);
+        left: calc(50% + var(--cos_deg_197) * 50%)
+    }
+	55.00% {
+        top: calc(50% - var(--sin_deg_198) * 50%);
+        left: calc(50% + var(--cos_deg_198) * 50%)
+    }
+	55.28% {
+        top: calc(50% - var(--sin_deg_199) * 50%);
+        left: calc(50% + var(--cos_deg_199) * 50%)
+    }
+	55.56% {
+        top: calc(50% - var(--sin_deg_200) * 50%);
+        left: calc(50% + var(--cos_deg_200) * 50%)
+    }
+	55.83% {
+        top: calc(50% - var(--sin_deg_201) * 50%);
+        left: calc(50% + var(--cos_deg_201) * 50%)
+    }
+	56.11% {
+        top: calc(50% - var(--sin_deg_202) * 50%);
+        left: calc(50% + var(--cos_deg_202) * 50%)
+    }
+	56.39% {
+        top: calc(50% - var(--sin_deg_203) * 50%);
+        left: calc(50% + var(--cos_deg_203) * 50%)
+    }
+	56.67% {
+        top: calc(50% - var(--sin_deg_204) * 50%);
+        left: calc(50% + var(--cos_deg_204) * 50%)
+    }
+	56.94% {
+        top: calc(50% - var(--sin_deg_205) * 50%);
+        left: calc(50% + var(--cos_deg_205) * 50%)
+    }
+	57.22% {
+        top: calc(50% - var(--sin_deg_206) * 50%);
+        left: calc(50% + var(--cos_deg_206) * 50%)
+    }
+	57.50% {
+        top: calc(50% - var(--sin_deg_207) * 50%);
+        left: calc(50% + var(--cos_deg_207) * 50%)
+    }
+	57.78% {
+        top: calc(50% - var(--sin_deg_208) * 50%);
+        left: calc(50% + var(--cos_deg_208) * 50%)
+    }
+	58.06% {
+        top: calc(50% - var(--sin_deg_209) * 50%);
+        left: calc(50% + var(--cos_deg_209) * 50%)
+    }
+	58.33% {
+        top: calc(50% - var(--sin_deg_210) * 50%);
+        left: calc(50% + var(--cos_deg_210) * 50%)
+    }
+	58.61% {
+        top: calc(50% - var(--sin_deg_211) * 50%);
+        left: calc(50% + var(--cos_deg_211) * 50%)
+    }
+	58.89% {
+        top: calc(50% - var(--sin_deg_212) * 50%);
+        left: calc(50% + var(--cos_deg_212) * 50%)
+    }
+	59.17% {
+        top: calc(50% - var(--sin_deg_213) * 50%);
+        left: calc(50% + var(--cos_deg_213) * 50%)
+    }
+	59.44% {
+        top: calc(50% - var(--sin_deg_214) * 50%);
+        left: calc(50% + var(--cos_deg_214) * 50%)
+    }
+	59.72% {
+        top: calc(50% - var(--sin_deg_215) * 50%);
+        left: calc(50% + var(--cos_deg_215) * 50%)
+    }
+	60.00% {
+        top: calc(50% - var(--sin_deg_216) * 50%);
+        left: calc(50% + var(--cos_deg_216) * 50%)
+    }
+	60.28% {
+        top: calc(50% - var(--sin_deg_217) * 50%);
+        left: calc(50% + var(--cos_deg_217) * 50%)
+    }
+	60.56% {
+        top: calc(50% - var(--sin_deg_218) * 50%);
+        left: calc(50% + var(--cos_deg_218) * 50%)
+    }
+	60.83% {
+        top: calc(50% - var(--sin_deg_219) * 50%);
+        left: calc(50% + var(--cos_deg_219) * 50%)
+    }
+	61.11% {
+        top: calc(50% - var(--sin_deg_220) * 50%);
+        left: calc(50% + var(--cos_deg_220) * 50%)
+    }
+	61.39% {
+        top: calc(50% - var(--sin_deg_221) * 50%);
+        left: calc(50% + var(--cos_deg_221) * 50%)
+    }
+	61.67% {
+        top: calc(50% - var(--sin_deg_222) * 50%);
+        left: calc(50% + var(--cos_deg_222) * 50%)
+    }
+	61.94% {
+        top: calc(50% - var(--sin_deg_223) * 50%);
+        left: calc(50% + var(--cos_deg_223) * 50%)
+    }
+	62.22% {
+        top: calc(50% - var(--sin_deg_224) * 50%);
+        left: calc(50% + var(--cos_deg_224) * 50%)
+    }
+	62.50% {
+        top: calc(50% - var(--sin_deg_225) * 50%);
+        left: calc(50% + var(--cos_deg_225) * 50%)
+    }
+	62.78% {
+        top: calc(50% - var(--sin_deg_226) * 50%);
+        left: calc(50% + var(--cos_deg_226) * 50%)
+    }
+	63.06% {
+        top: calc(50% - var(--sin_deg_227) * 50%);
+        left: calc(50% + var(--cos_deg_227) * 50%)
+    }
+	63.33% {
+        top: calc(50% - var(--sin_deg_228) * 50%);
+        left: calc(50% + var(--cos_deg_228) * 50%)
+    }
+	63.61% {
+        top: calc(50% - var(--sin_deg_229) * 50%);
+        left: calc(50% + var(--cos_deg_229) * 50%)
+    }
+	63.89% {
+        top: calc(50% - var(--sin_deg_230) * 50%);
+        left: calc(50% + var(--cos_deg_230) * 50%)
+    }
+	64.17% {
+        top: calc(50% - var(--sin_deg_231) * 50%);
+        left: calc(50% + var(--cos_deg_231) * 50%)
+    }
+	64.44% {
+        top: calc(50% - var(--sin_deg_232) * 50%);
+        left: calc(50% + var(--cos_deg_232) * 50%)
+    }
+	64.72% {
+        top: calc(50% - var(--sin_deg_233) * 50%);
+        left: calc(50% + var(--cos_deg_233) * 50%)
+    }
+	65.00% {
+        top: calc(50% - var(--sin_deg_234) * 50%);
+        left: calc(50% + var(--cos_deg_234) * 50%)
+    }
+	65.28% {
+        top: calc(50% - var(--sin_deg_235) * 50%);
+        left: calc(50% + var(--cos_deg_235) * 50%)
+    }
+	65.56% {
+        top: calc(50% - var(--sin_deg_236) * 50%);
+        left: calc(50% + var(--cos_deg_236) * 50%)
+    }
+	65.83% {
+        top: calc(50% - var(--sin_deg_237) * 50%);
+        left: calc(50% + var(--cos_deg_237) * 50%)
+    }
+	66.11% {
+        top: calc(50% - var(--sin_deg_238) * 50%);
+        left: calc(50% + var(--cos_deg_238) * 50%)
+    }
+	66.39% {
+        top: calc(50% - var(--sin_deg_239) * 50%);
+        left: calc(50% + var(--cos_deg_239) * 50%)
+    }
+	66.67% {
+        top: calc(50% - var(--sin_deg_240) * 50%);
+        left: calc(50% + var(--cos_deg_240) * 50%)
+    }
+	66.94% {
+        top: calc(50% - var(--sin_deg_241) * 50%);
+        left: calc(50% + var(--cos_deg_241) * 50%)
+    }
+	67.22% {
+        top: calc(50% - var(--sin_deg_242) * 50%);
+        left: calc(50% + var(--cos_deg_242) * 50%)
+    }
+	67.50% {
+        top: calc(50% - var(--sin_deg_243) * 50%);
+        left: calc(50% + var(--cos_deg_243) * 50%)
+    }
+	67.78% {
+        top: calc(50% - var(--sin_deg_244) * 50%);
+        left: calc(50% + var(--cos_deg_244) * 50%)
+    }
+	68.06% {
+        top: calc(50% - var(--sin_deg_245) * 50%);
+        left: calc(50% + var(--cos_deg_245) * 50%)
+    }
+	68.33% {
+        top: calc(50% - var(--sin_deg_246) * 50%);
+        left: calc(50% + var(--cos_deg_246) * 50%)
+    }
+	68.61% {
+        top: calc(50% - var(--sin_deg_247) * 50%);
+        left: calc(50% + var(--cos_deg_247) * 50%)
+    }
+	68.89% {
+        top: calc(50% - var(--sin_deg_248) * 50%);
+        left: calc(50% + var(--cos_deg_248) * 50%)
+    }
+	69.17% {
+        top: calc(50% - var(--sin_deg_249) * 50%);
+        left: calc(50% + var(--cos_deg_249) * 50%)
+    }
+	69.44% {
+        top: calc(50% - var(--sin_deg_250) * 50%);
+        left: calc(50% + var(--cos_deg_250) * 50%)
+    }
+	69.72% {
+        top: calc(50% - var(--sin_deg_251) * 50%);
+        left: calc(50% + var(--cos_deg_251) * 50%)
+    }
+	70.00% {
+        top: calc(50% - var(--sin_deg_252) * 50%);
+        left: calc(50% + var(--cos_deg_252) * 50%)
+    }
+	70.28% {
+        top: calc(50% - var(--sin_deg_253) * 50%);
+        left: calc(50% + var(--cos_deg_253) * 50%)
+    }
+	70.56% {
+        top: calc(50% - var(--sin_deg_254) * 50%);
+        left: calc(50% + var(--cos_deg_254) * 50%)
+    }
+	70.83% {
+        top: calc(50% - var(--sin_deg_255) * 50%);
+        left: calc(50% + var(--cos_deg_255) * 50%)
+    }
+	71.11% {
+        top: calc(50% - var(--sin_deg_256) * 50%);
+        left: calc(50% + var(--cos_deg_256) * 50%)
+    }
+	71.39% {
+        top: calc(50% - var(--sin_deg_257) * 50%);
+        left: calc(50% + var(--cos_deg_257) * 50%)
+    }
+	71.67% {
+        top: calc(50% - var(--sin_deg_258) * 50%);
+        left: calc(50% + var(--cos_deg_258) * 50%)
+    }
+	71.94% {
+        top: calc(50% - var(--sin_deg_259) * 50%);
+        left: calc(50% + var(--cos_deg_259) * 50%)
+    }
+	72.22% {
+        top: calc(50% - var(--sin_deg_260) * 50%);
+        left: calc(50% + var(--cos_deg_260) * 50%)
+    }
+	72.50% {
+        top: calc(50% - var(--sin_deg_261) * 50%);
+        left: calc(50% + var(--cos_deg_261) * 50%)
+    }
+	72.78% {
+        top: calc(50% - var(--sin_deg_262) * 50%);
+        left: calc(50% + var(--cos_deg_262) * 50%)
+    }
+	73.06% {
+        top: calc(50% - var(--sin_deg_263) * 50%);
+        left: calc(50% + var(--cos_deg_263) * 50%)
+    }
+	73.33% {
+        top: calc(50% - var(--sin_deg_264) * 50%);
+        left: calc(50% + var(--cos_deg_264) * 50%)
+    }
+	73.61% {
+        top: calc(50% - var(--sin_deg_265) * 50%);
+        left: calc(50% + var(--cos_deg_265) * 50%)
+    }
+	73.89% {
+        top: calc(50% - var(--sin_deg_266) * 50%);
+        left: calc(50% + var(--cos_deg_266) * 50%)
+    }
+	74.17% {
+        top: calc(50% - var(--sin_deg_267) * 50%);
+        left: calc(50% + var(--cos_deg_267) * 50%)
+    }
+	74.44% {
+        top: calc(50% - var(--sin_deg_268) * 50%);
+        left: calc(50% + var(--cos_deg_268) * 50%)
+    }
+	74.72% {
+        top: calc(50% - var(--sin_deg_269) * 50%);
+        left: calc(50% + var(--cos_deg_269) * 50%)
+    }
+	75.00% {
+        top: calc(50% - var(--sin_deg_270) * 50%);
+        left: calc(50% + var(--cos_deg_270) * 50%)
+    }
+	75.28% {
+        top: calc(50% - var(--sin_deg_271) * 50%);
+        left: calc(50% + var(--cos_deg_271) * 50%)
+    }
+	75.56% {
+        top: calc(50% - var(--sin_deg_272) * 50%);
+        left: calc(50% + var(--cos_deg_272) * 50%)
+    }
+	75.83% {
+        top: calc(50% - var(--sin_deg_273) * 50%);
+        left: calc(50% + var(--cos_deg_273) * 50%)
+    }
+	76.11% {
+        top: calc(50% - var(--sin_deg_274) * 50%);
+        left: calc(50% + var(--cos_deg_274) * 50%)
+    }
+	76.39% {
+        top: calc(50% - var(--sin_deg_275) * 50%);
+        left: calc(50% + var(--cos_deg_275) * 50%)
+    }
+	76.67% {
+        top: calc(50% - var(--sin_deg_276) * 50%);
+        left: calc(50% + var(--cos_deg_276) * 50%)
+    }
+	76.94% {
+        top: calc(50% - var(--sin_deg_277) * 50%);
+        left: calc(50% + var(--cos_deg_277) * 50%)
+    }
+	77.22% {
+        top: calc(50% - var(--sin_deg_278) * 50%);
+        left: calc(50% + var(--cos_deg_278) * 50%)
+    }
+	77.50% {
+        top: calc(50% - var(--sin_deg_279) * 50%);
+        left: calc(50% + var(--cos_deg_279) * 50%)
+    }
+	77.78% {
+        top: calc(50% - var(--sin_deg_280) * 50%);
+        left: calc(50% + var(--cos_deg_280) * 50%)
+    }
+	78.06% {
+        top: calc(50% - var(--sin_deg_281) * 50%);
+        left: calc(50% + var(--cos_deg_281) * 50%)
+    }
+	78.33% {
+        top: calc(50% - var(--sin_deg_282) * 50%);
+        left: calc(50% + var(--cos_deg_282) * 50%)
+    }
+	78.61% {
+        top: calc(50% - var(--sin_deg_283) * 50%);
+        left: calc(50% + var(--cos_deg_283) * 50%)
+    }
+	78.89% {
+        top: calc(50% - var(--sin_deg_284) * 50%);
+        left: calc(50% + var(--cos_deg_284) * 50%)
+    }
+	79.17% {
+        top: calc(50% - var(--sin_deg_285) * 50%);
+        left: calc(50% + var(--cos_deg_285) * 50%)
+    }
+	79.44% {
+        top: calc(50% - var(--sin_deg_286) * 50%);
+        left: calc(50% + var(--cos_deg_286) * 50%)
+    }
+	79.72% {
+        top: calc(50% - var(--sin_deg_287) * 50%);
+        left: calc(50% + var(--cos_deg_287) * 50%)
+    }
+	80.00% {
+        top: calc(50% - var(--sin_deg_288) * 50%);
+        left: calc(50% + var(--cos_deg_288) * 50%)
+    }
+	80.28% {
+        top: calc(50% - var(--sin_deg_289) * 50%);
+        left: calc(50% + var(--cos_deg_289) * 50%)
+    }
+	80.56% {
+        top: calc(50% - var(--sin_deg_290) * 50%);
+        left: calc(50% + var(--cos_deg_290) * 50%)
+    }
+	80.83% {
+        top: calc(50% - var(--sin_deg_291) * 50%);
+        left: calc(50% + var(--cos_deg_291) * 50%)
+    }
+	81.11% {
+        top: calc(50% - var(--sin_deg_292) * 50%);
+        left: calc(50% + var(--cos_deg_292) * 50%)
+    }
+	81.39% {
+        top: calc(50% - var(--sin_deg_293) * 50%);
+        left: calc(50% + var(--cos_deg_293) * 50%)
+    }
+	81.67% {
+        top: calc(50% - var(--sin_deg_294) * 50%);
+        left: calc(50% + var(--cos_deg_294) * 50%)
+    }
+	81.94% {
+        top: calc(50% - var(--sin_deg_295) * 50%);
+        left: calc(50% + var(--cos_deg_295) * 50%)
+    }
+	82.22% {
+        top: calc(50% - var(--sin_deg_296) * 50%);
+        left: calc(50% + var(--cos_deg_296) * 50%)
+    }
+	82.50% {
+        top: calc(50% - var(--sin_deg_297) * 50%);
+        left: calc(50% + var(--cos_deg_297) * 50%)
+    }
+	82.78% {
+        top: calc(50% - var(--sin_deg_298) * 50%);
+        left: calc(50% + var(--cos_deg_298) * 50%)
+    }
+	83.06% {
+        top: calc(50% - var(--sin_deg_299) * 50%);
+        left: calc(50% + var(--cos_deg_299) * 50%)
+    }
+	83.33% {
+        top: calc(50% - var(--sin_deg_300) * 50%);
+        left: calc(50% + var(--cos_deg_300) * 50%)
+    }
+	83.61% {
+        top: calc(50% - var(--sin_deg_301) * 50%);
+        left: calc(50% + var(--cos_deg_301) * 50%)
+    }
+	83.89% {
+        top: calc(50% - var(--sin_deg_302) * 50%);
+        left: calc(50% + var(--cos_deg_302) * 50%)
+    }
+	84.17% {
+        top: calc(50% - var(--sin_deg_303) * 50%);
+        left: calc(50% + var(--cos_deg_303) * 50%)
+    }
+	84.44% {
+        top: calc(50% - var(--sin_deg_304) * 50%);
+        left: calc(50% + var(--cos_deg_304) * 50%)
+    }
+	84.72% {
+        top: calc(50% - var(--sin_deg_305) * 50%);
+        left: calc(50% + var(--cos_deg_305) * 50%)
+    }
+	85.00% {
+        top: calc(50% - var(--sin_deg_306) * 50%);
+        left: calc(50% + var(--cos_deg_306) * 50%)
+    }
+	85.28% {
+        top: calc(50% - var(--sin_deg_307) * 50%);
+        left: calc(50% + var(--cos_deg_307) * 50%)
+    }
+	85.56% {
+        top: calc(50% - var(--sin_deg_308) * 50%);
+        left: calc(50% + var(--cos_deg_308) * 50%)
+    }
+	85.83% {
+        top: calc(50% - var(--sin_deg_309) * 50%);
+        left: calc(50% + var(--cos_deg_309) * 50%)
+    }
+	86.11% {
+        top: calc(50% - var(--sin_deg_310) * 50%);
+        left: calc(50% + var(--cos_deg_310) * 50%)
+    }
+	86.39% {
+        top: calc(50% - var(--sin_deg_311) * 50%);
+        left: calc(50% + var(--cos_deg_311) * 50%)
+    }
+	86.67% {
+        top: calc(50% - var(--sin_deg_312) * 50%);
+        left: calc(50% + var(--cos_deg_312) * 50%)
+    }
+	86.94% {
+        top: calc(50% - var(--sin_deg_313) * 50%);
+        left: calc(50% + var(--cos_deg_313) * 50%)
+    }
+	87.22% {
+        top: calc(50% - var(--sin_deg_314) * 50%);
+        left: calc(50% + var(--cos_deg_314) * 50%)
+    }
+	87.50% {
+        top: calc(50% - var(--sin_deg_315) * 50%);
+        left: calc(50% + var(--cos_deg_315) * 50%)
+    }
+	87.78% {
+        top: calc(50% - var(--sin_deg_316) * 50%);
+        left: calc(50% + var(--cos_deg_316) * 50%)
+    }
+	88.06% {
+        top: calc(50% - var(--sin_deg_317) * 50%);
+        left: calc(50% + var(--cos_deg_317) * 50%)
+    }
+	88.33% {
+        top: calc(50% - var(--sin_deg_318) * 50%);
+        left: calc(50% + var(--cos_deg_318) * 50%)
+    }
+	88.61% {
+        top: calc(50% - var(--sin_deg_319) * 50%);
+        left: calc(50% + var(--cos_deg_319) * 50%)
+    }
+	88.89% {
+        top: calc(50% - var(--sin_deg_320) * 50%);
+        left: calc(50% + var(--cos_deg_320) * 50%)
+    }
+	89.17% {
+        top: calc(50% - var(--sin_deg_321) * 50%);
+        left: calc(50% + var(--cos_deg_321) * 50%)
+    }
+	89.44% {
+        top: calc(50% - var(--sin_deg_322) * 50%);
+        left: calc(50% + var(--cos_deg_322) * 50%)
+    }
+	89.72% {
+        top: calc(50% - var(--sin_deg_323) * 50%);
+        left: calc(50% + var(--cos_deg_323) * 50%)
+    }
+	90.00% {
+        top: calc(50% - var(--sin_deg_324) * 50%);
+        left: calc(50% + var(--cos_deg_324) * 50%)
+    }
+	90.28% {
+        top: calc(50% - var(--sin_deg_325) * 50%);
+        left: calc(50% + var(--cos_deg_325) * 50%)
+    }
+	90.56% {
+        top: calc(50% - var(--sin_deg_326) * 50%);
+        left: calc(50% + var(--cos_deg_326) * 50%)
+    }
+	90.83% {
+        top: calc(50% - var(--sin_deg_327) * 50%);
+        left: calc(50% + var(--cos_deg_327) * 50%)
+    }
+	91.11% {
+        top: calc(50% - var(--sin_deg_328) * 50%);
+        left: calc(50% + var(--cos_deg_328) * 50%)
+    }
+	91.39% {
+        top: calc(50% - var(--sin_deg_329) * 50%);
+        left: calc(50% + var(--cos_deg_329) * 50%)
+    }
+	91.67% {
+        top: calc(50% - var(--sin_deg_330) * 50%);
+        left: calc(50% + var(--cos_deg_330) * 50%)
+    }
+	91.94% {
+        top: calc(50% - var(--sin_deg_331) * 50%);
+        left: calc(50% + var(--cos_deg_331) * 50%)
+    }
+	92.22% {
+        top: calc(50% - var(--sin_deg_332) * 50%);
+        left: calc(50% + var(--cos_deg_332) * 50%)
+    }
+	92.50% {
+        top: calc(50% - var(--sin_deg_333) * 50%);
+        left: calc(50% + var(--cos_deg_333) * 50%)
+    }
+	92.78% {
+        top: calc(50% - var(--sin_deg_334) * 50%);
+        left: calc(50% + var(--cos_deg_334) * 50%)
+    }
+	93.06% {
+        top: calc(50% - var(--sin_deg_335) * 50%);
+        left: calc(50% + var(--cos_deg_335) * 50%)
+    }
+	93.33% {
+        top: calc(50% - var(--sin_deg_336) * 50%);
+        left: calc(50% + var(--cos_deg_336) * 50%)
+    }
+	93.61% {
+        top: calc(50% - var(--sin_deg_337) * 50%);
+        left: calc(50% + var(--cos_deg_337) * 50%)
+    }
+	93.89% {
+        top: calc(50% - var(--sin_deg_338) * 50%);
+        left: calc(50% + var(--cos_deg_338) * 50%)
+    }
+	94.17% {
+        top: calc(50% - var(--sin_deg_339) * 50%);
+        left: calc(50% + var(--cos_deg_339) * 50%)
+    }
+	94.44% {
+        top: calc(50% - var(--sin_deg_340) * 50%);
+        left: calc(50% + var(--cos_deg_340) * 50%)
+    }
+	94.72% {
+        top: calc(50% - var(--sin_deg_341) * 50%);
+        left: calc(50% + var(--cos_deg_341) * 50%)
+    }
+	95.00% {
+        top: calc(50% - var(--sin_deg_342) * 50%);
+        left: calc(50% + var(--cos_deg_342) * 50%)
+    }
+	95.28% {
+        top: calc(50% - var(--sin_deg_343) * 50%);
+        left: calc(50% + var(--cos_deg_343) * 50%)
+    }
+	95.56% {
+        top: calc(50% - var(--sin_deg_344) * 50%);
+        left: calc(50% + var(--cos_deg_344) * 50%)
+    }
+	95.83% {
+        top: calc(50% - var(--sin_deg_345) * 50%);
+        left: calc(50% + var(--cos_deg_345) * 50%)
+    }
+	96.11% {
+        top: calc(50% - var(--sin_deg_346) * 50%);
+        left: calc(50% + var(--cos_deg_346) * 50%)
+    }
+	96.39% {
+        top: calc(50% - var(--sin_deg_347) * 50%);
+        left: calc(50% + var(--cos_deg_347) * 50%)
+    }
+	96.67% {
+        top: calc(50% - var(--sin_deg_348) * 50%);
+        left: calc(50% + var(--cos_deg_348) * 50%)
+    }
+	96.94% {
+        top: calc(50% - var(--sin_deg_349) * 50%);
+        left: calc(50% + var(--cos_deg_349) * 50%)
+    }
+	97.22% {
+        top: calc(50% - var(--sin_deg_350) * 50%);
+        left: calc(50% + var(--cos_deg_350) * 50%)
+    }
+	97.50% {
+        top: calc(50% - var(--sin_deg_351) * 50%);
+        left: calc(50% + var(--cos_deg_351) * 50%)
+    }
+	97.78% {
+        top: calc(50% - var(--sin_deg_352) * 50%);
+        left: calc(50% + var(--cos_deg_352) * 50%)
+    }
+	98.06% {
+        top: calc(50% - var(--sin_deg_353) * 50%);
+        left: calc(50% + var(--cos_deg_353) * 50%)
+    }
+	98.33% {
+        top: calc(50% - var(--sin_deg_354) * 50%);
+        left: calc(50% + var(--cos_deg_354) * 50%)
+    }
+	98.61% {
+        top: calc(50% - var(--sin_deg_355) * 50%);
+        left: calc(50% + var(--cos_deg_355) * 50%)
+    }
+	98.89% {
+        top: calc(50% - var(--sin_deg_356) * 50%);
+        left: calc(50% + var(--cos_deg_356) * 50%)
+    }
+	99.17% {
+        top: calc(50% - var(--sin_deg_357) * 50%);
+        left: calc(50% + var(--cos_deg_357) * 50%)
+    }
+	99.44% {
+        top: calc(50% - var(--sin_deg_358) * 50%);
+        left: calc(50% + var(--cos_deg_358) * 50%)
+    }
+	99.72% {
+        top: calc(50% - var(--sin_deg_359) * 50%);
+        left: calc(50% + var(--cos_deg_359) * 50%)
+    }
+	100.00% {
+        top: calc(50% - var(--sin_deg_360) * 50%);
+        left: calc(50% + var(--cos_deg_360) * 50%)
+    }
+}
+

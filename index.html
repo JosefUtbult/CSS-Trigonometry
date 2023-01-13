@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="trig_stylesheets/trig_full.css">
+    <link rel="stylesheet" href="unit_circle.css">
+
+    <style>
+        :root {
+            --unit-circle-size: 20vw;
+        }
+
+        h1, h2, p {
+            font-family: 'Sofia Sans Extra Condensed', sans-serif;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 2em;
+        }
+
+        .circle-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .circle-container > * {
+            margin: 1vh 5vw;
+            text-align: center;
+        }
+
+        .unit-circle {
+            position: relative;
+            width: var(--unit-circle-size);
+            height: var(--unit-circle-size);
+            margin: 0 auto;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.171);
+        }
+
+        .unit-circle .point {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .unit-circle.cos .point {
+            background-color: rgb(100, 252, 125);
+            animation: cosinus 4s ease infinite;
+        }
+
+        .unit-circle.sin .point {
+            background-color: rgb(255, 136, 0);
+            animation: sinus 4s ease infinite;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trigonometry CSS example</h1>
+    <div class="circle-container">
+        <div>
+            <h2>Cosinus</h2>
+            <div class="unit-circle cos">
+                <div class="point"></div>
+            </div>
+        </div>
+        <div>
+            <h2>Sinus</h2>
+            <div class="unit-circle sin">
+                <div class="point"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
